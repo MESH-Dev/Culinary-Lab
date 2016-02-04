@@ -1,3 +1,15 @@
-@if variable-exists(font-url--google) {
-  @import url($font-url--google);
+// @if variable-exists(font-url--google) {
+//   @import url($font-url--google);
+// }
+
+@font-face {
+	font-family: 'Frontage-Bold';
+	src: url('webfonts/frontage-bold.eot');
+	src: url('webfonts/frontage-bold.eot?#iefix') format('embedded-opentype'),
+             url('webfonts/frontage-bold.woff2') format('woff2'),
+	     url('webfonts/frontage-bold.woff') format('woff'),
+	     url('webfonts/frontage-bold.ttf') format('truetype'),
+	     url('webfonts/frontage-bold.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }

@@ -79,9 +79,12 @@ a {
 // Improve readability when focused and also mouse hovered in all browsers.
 
 
-a:active,
-a:hover {
+a:active {
   outline: 0;
+}
+
+a:hover {
+  opacity: 0.7;
 }
 
 // Text-level semantics

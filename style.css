@@ -18,7 +18,13 @@ Starter is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
-@import url("http://fonts.googleapis.com/css?family=Lora:100,300,400,700,900");
+@font-face {
+  font-family: 'Frontage-Bold';
+  src: url("webfonts/frontage-bold.eot");
+  src: url("webfonts/frontage-bold.eot?#iefix") format("embedded-opentype"), url("webfonts/frontage-bold.woff2") format("woff2"), url("webfonts/frontage-bold.woff") format("woff"), url("webfonts/frontage-bold.ttf") format("truetype"), url("webfonts/frontage-bold.svg#youworkforthem") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 /* line 8, sass/base/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -74,45 +80,49 @@ a {
 }
 
 /* line 82, sass/base/_normalize.scss */
-a:active,
-a:hover {
+a:active {
   outline: 0;
 }
 
-/* line 91, sass/base/_normalize.scss */
+/* line 86, sass/base/_normalize.scss */
+a:hover {
+  opacity: 0.7;
+}
+
+/* line 94, sass/base/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 98, sass/base/_normalize.scss */
+/* line 101, sass/base/_normalize.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 106, sass/base/_normalize.scss */
+/* line 109, sass/base/_normalize.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 114, sass/base/_normalize.scss */
+/* line 117, sass/base/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 122, sass/base/_normalize.scss */
+/* line 125, sass/base/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
 }
 
-/* line 130, sass/base/_normalize.scss */
+/* line 133, sass/base/_normalize.scss */
 small {
   font-size: 80%;
 }
 
-/* line 137, sass/base/_normalize.scss */
+/* line 140, sass/base/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -121,44 +131,44 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 145, sass/base/_normalize.scss */
+/* line 148, sass/base/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 149, sass/base/_normalize.scss */
+/* line 152, sass/base/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 157, sass/base/_normalize.scss */
+/* line 160, sass/base/_normalize.scss */
 img {
   border: 0;
 }
 
-/* line 164, sass/base/_normalize.scss */
+/* line 167, sass/base/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 172, sass/base/_normalize.scss */
+/* line 175, sass/base/_normalize.scss */
 figure {
   margin: 1em 40px;
 }
 
-/* line 179, sass/base/_normalize.scss */
+/* line 182, sass/base/_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
 
-/* line 188, sass/base/_normalize.scss */
+/* line 191, sass/base/_normalize.scss */
 pre {
   overflow: auto;
 }
 
-/* line 195, sass/base/_normalize.scss */
+/* line 198, sass/base/_normalize.scss */
 code,
 kbd,
 pre,
@@ -167,7 +177,7 @@ samp {
   font-size: 1em;
 }
 
-/* line 214, sass/base/_normalize.scss */
+/* line 217, sass/base/_normalize.scss */
 button,
 input,
 optgroup,
@@ -178,18 +188,18 @@ textarea {
   margin: 0;
 }
 
-/* line 227, sass/base/_normalize.scss */
+/* line 230, sass/base/_normalize.scss */
 button {
   overflow: visible;
 }
 
-/* line 237, sass/base/_normalize.scss */
+/* line 240, sass/base/_normalize.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 249, sass/base/_normalize.scss */
+/* line 252, sass/base/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -198,25 +208,25 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 260, sass/base/_normalize.scss */
+/* line 263, sass/base/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/* line 268, sass/base/_normalize.scss */
+/* line 271, sass/base/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 278, sass/base/_normalize.scss */
+/* line 281, sass/base/_normalize.scss */
 input {
   line-height: normal;
 }
 
-/* line 284, sass/base/_normalize.scss */
+/* line 287, sass/base/_normalize.scss */
 *
 input[type="checkbox"],
 input[type="radio"] {
@@ -224,13 +234,13 @@ input[type="radio"] {
   padding: 0;
 }
 
-/* line 300, sass/base/_normalize.scss */
+/* line 303, sass/base/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/* line 310, sass/base/_normalize.scss */
+/* line 313, sass/base/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
@@ -238,42 +248,42 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 322, sass/base/_normalize.scss */
+/* line 325, sass/base/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 330, sass/base/_normalize.scss */
+/* line 333, sass/base/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
-/* line 340, sass/base/_normalize.scss */
+/* line 343, sass/base/_normalize.scss */
 legend {
   border: 0;
   padding: 0;
 }
 
-/* line 348, sass/base/_normalize.scss */
+/* line 351, sass/base/_normalize.scss */
 textarea {
   overflow: auto;
 }
 
-/* line 356, sass/base/_normalize.scss */
+/* line 359, sass/base/_normalize.scss */
 optgroup {
   font-weight: bold;
 }
 
-/* line 364, sass/base/_normalize.scss */
+/* line 367, sass/base/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 369, sass/base/_normalize.scss */
+/* line 372, sass/base/_normalize.scss */
 td,
 th {
   padding: 0;
@@ -289,7 +299,7 @@ th {
 body {
   color: #404040;
   font-size: 16;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "freight-text-pro", Helvetica, Arial, sans-serif;
   line-height: 1.5;
 }
 
@@ -432,21 +442,74 @@ html, body {
   top: 0;
 }
 
+/* line 1, sass/layout/_main.scss */
+.landing {
+  min-height: 100vh;
+}
+
+/* line 5, sass/layout/_main.scss */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+/* line 13, sass/layout/_main.scss */
+.more {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* line 21, sass/layout/_main.scss */
+.more-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* line 26, sass/layout/_main.scss */
+.listing {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Frontage-Bold", Helvetica, Arial, sans-serif;
+  font-size: 80px;
+  letter-spacing: -20px;
+  padding: 50px 0;
+}
+/* line 34, sass/layout/_main.scss */
+.listing .listing-item {
+  line-height: 1.3em;
+  padding: 50px 0 100px;
+}
+/* line 38, sass/layout/_main.scss */
+.listing .listing-item a {
+  color: black;
+}
+
 /* line 1, sass/modules/_menus.scss */
 .main-navigation {
   clear: both;
   display: block;
   float: left;
   width: 100%;
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "proxima-nova", sans-serif;
 }
-/* line 7, sass/modules/_menus.scss */
+/* line 11, sass/modules/_menus.scss */
 .main-navigation ul {
   display: none;
   list-style: none;
   margin: 0;
   padding-left: 0;
+  text-align: center;
 }
-/* line 13, sass/modules/_menus.scss */
+/* line 18, sass/modules/_menus.scss */
 .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   float: left;
@@ -455,68 +518,72 @@ html, body {
   left: -999em;
   z-index: 99999;
 }
-/* line 21, sass/modules/_menus.scss */
+/* line 26, sass/modules/_menus.scss */
 .main-navigation ul ul ul {
   left: -999em;
   top: 0;
 }
-/* line 27, sass/modules/_menus.scss */
+/* line 32, sass/modules/_menus.scss */
 .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
   left: 100%;
 }
-/* line 33, sass/modules/_menus.scss */
+/* line 38, sass/modules/_menus.scss */
 .main-navigation ul ul a {
   width: 200px;
 }
-/* line 46, sass/modules/_menus.scss */
+/* line 51, sass/modules/_menus.scss */
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
   left: auto;
 }
-/* line 51, sass/modules/_menus.scss */
+/* line 56, sass/modules/_menus.scss */
 .main-navigation li {
-  float: left;
+  display: inline-block;
   position: relative;
+  padding: 15px;
 }
-/* line 59, sass/modules/_menus.scss */
+/* line 65, sass/modules/_menus.scss */
 .main-navigation a {
   display: block;
   text-decoration: none;
+  color: black;
+  font-weight: 700;
+  letter-spacing: 0.05em;
 }
 
 /* Small menu. */
-/* line 71, sass/modules/_menus.scss */
+/* line 80, sass/modules/_menus.scss */
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
 }
 
 @media screen and (min-width: 37.5em) {
-  /* line 77, sass/modules/_menus.scss */
+  /* line 86, sass/modules/_menus.scss */
   .menu-toggle {
     display: none;
   }
 
-  /* line 80, sass/modules/_menus.scss */
+  /* line 89, sass/modules/_menus.scss */
   .main-navigation ul {
     display: block;
   }
 }
-/* line 89, sass/modules/_menus.scss */
+/* line 98, sass/modules/_menus.scss */
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
 .post-navigation {
   margin: 0 0 1.5em;
   overflow: hidden;
 }
-/* line 94, sass/modules/_menus.scss */
+/* line 103, sass/modules/_menus.scss */
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
   float: left;
   width: 50%;
 }
-/* line 99, sass/modules/_menus.scss */
+/* line 108, sass/modules/_menus.scss */
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
@@ -637,47 +704,47 @@ html, body {
 }
 /* line 83, sass/grid/_dependencies.scss */
 .container .offset-by-one {
-  padding-left: 80px;
+  margin-left: 80px;
 }
 /* line 83, sass/grid/_dependencies.scss */
 .container .offset-by-two {
-  padding-left: 160px;
+  margin-left: 160px;
 }
 /* line 83, sass/grid/_dependencies.scss */
 .container .offset-by-three {
-  padding-left: 240px;
+  margin-left: 240px;
 }
 /* line 83, sass/grid/_dependencies.scss */
 .container .offset-by-four {
-  padding-left: 320px;
+  margin-left: 320px;
 }
 /* line 83, sass/grid/_dependencies.scss */
 .container .offset-by-five {
-  padding-left: 400px;
+  margin-left: 400px;
 }
 /* line 83, sass/grid/_dependencies.scss */
 .container .offset-by-six {
-  padding-left: 480px;
+  margin-left: 480px;
 }
 /* line 83, sass/grid/_dependencies.scss */
 .container .offset-by-seven {
-  padding-left: 560px;
+  margin-left: 560px;
 }
 /* line 83, sass/grid/_dependencies.scss */
 .container .offset-by-eight {
-  padding-left: 640px;
+  margin-left: 640px;
 }
 /* line 83, sass/grid/_dependencies.scss */
 .container .offset-by-nine {
-  padding-left: 720px;
+  margin-left: 720px;
 }
 /* line 83, sass/grid/_dependencies.scss */
 .container .offset-by-ten {
-  padding-left: 800px;
+  margin-left: 800px;
 }
 /* line 83, sass/grid/_dependencies.scss */
 .container .offset-by-eleven {
-  padding-left: 880px;
+  margin-left: 880px;
 }
 
 /* TABLET (PORTRAIT)
@@ -779,47 +846,47 @@ html, body {
   }
   /* line 83, sass/grid/_dependencies.scss */
   .container .offset-by-one {
-    padding-left: 64px;
+    margin-left: 64px;
   }
   /* line 83, sass/grid/_dependencies.scss */
   .container .offset-by-two {
-    padding-left: 128px;
+    margin-left: 128px;
   }
   /* line 83, sass/grid/_dependencies.scss */
   .container .offset-by-three {
-    padding-left: 192px;
+    margin-left: 192px;
   }
   /* line 83, sass/grid/_dependencies.scss */
   .container .offset-by-four {
-    padding-left: 256px;
+    margin-left: 256px;
   }
   /* line 83, sass/grid/_dependencies.scss */
   .container .offset-by-five {
-    padding-left: 320px;
+    margin-left: 320px;
   }
   /* line 83, sass/grid/_dependencies.scss */
   .container .offset-by-six {
-    padding-left: 384px;
+    margin-left: 384px;
   }
   /* line 83, sass/grid/_dependencies.scss */
   .container .offset-by-seven {
-    padding-left: 448px;
+    margin-left: 448px;
   }
   /* line 83, sass/grid/_dependencies.scss */
   .container .offset-by-eight {
-    padding-left: 512px;
+    margin-left: 512px;
   }
   /* line 83, sass/grid/_dependencies.scss */
   .container .offset-by-nine {
-    padding-left: 576px;
+    margin-left: 576px;
   }
   /* line 83, sass/grid/_dependencies.scss */
   .container .offset-by-ten {
-    padding-left: 640px;
+    margin-left: 640px;
   }
   /* line 83, sass/grid/_dependencies.scss */
   .container .offset-by-eleven {
-    padding-left: 704px;
+    margin-left: 704px;
   }
 }
 /*  MOBILE (PORTRAIT)

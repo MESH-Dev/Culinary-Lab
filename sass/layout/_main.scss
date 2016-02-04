@@ -1,0 +1,42 @@
+.landing {
+  min-height: 100vh;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.more {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.more-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.listing {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: $font-family--tertiary;
+  font-size: 80px;
+  letter-spacing: -20px;
+  padding: 50px 0;
+
+  .listing-item {
+    line-height: 1.3em;
+    padding: 50px 0 100px;
+
+    a {
+      color: black;
+    }
+  }
+}
