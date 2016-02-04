@@ -518,6 +518,14 @@ footer span {
   width: 200px;
 }
 
+/* line 60, sass/layout/_main.scss */
+.blue-rectangle {
+  position: absolute;
+  top: calc(100vh - 200px);
+  left: calc(50% - 510px);
+  z-index: -1;
+}
+
 /* line 1, sass/layout/_slider.scss */
 .slick-dots {
   position: absolute;
@@ -592,6 +600,13 @@ footer span {
 .slick-dots li.slick-active button:before {
   opacity: 1;
   color: white;
+}
+
+/* line 1, sass/layout/_header.scss */
+.logo {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 /* line 1, sass/modules/_menus.scss */

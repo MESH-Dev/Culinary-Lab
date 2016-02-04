@@ -56,3 +56,10 @@
     width: 200px;
   }
 }
+
+.blue-rectangle {
+  position: absolute;
+  top: calc(100vh - 200px);
+  left: calc(50% - 510px);
+  z-index: -1;
+}

@@ -73,10 +73,14 @@ get_header(); ?>
 
     <div class="container">
       <div class="four columns offset-by-four">
-        <div class="contacting-button"><a href="">More About Us</a></div>
+        <a href=""><div class="contacting-button">More About Us</div></a>
       </div>
     </div>
 
+  </div>
+
+  <div class="blue-rectangle">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/blue-rectangle.png" />
   </div>
 
 </main><!-- #main -->
