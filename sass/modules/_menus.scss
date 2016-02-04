@@ -58,6 +58,12 @@
 		position: relative;
 		padding: 15px;
 
+		&.current-menu-item {
+			a {
+				color: #4474d1;
+			}
+		}
+
 		&:hover > a,
 		&.focus > a {
 		}

@@ -1,3 +1,7 @@
+main {
+  width: 100%;
+  float: left;
+}
 .landing {
   min-height: 100vh;
 }
@@ -24,19 +28,14 @@
 }
 
 .listing {
-  text-align: center;
-  text-transform: uppercase;
-  font-family: $font-family--tertiary;
-  font-size: 80px;
-  letter-spacing: -20px;
-  padding: 50px 0;
+  padding: 50px 0 100px;
 
   .listing-item {
-    line-height: 1.3em;
-    padding: 50px 0 100px;
+    padding: 50px 0;
 
     a {
       color: black;
+
     }
   }
 }
@@ -62,4 +61,17 @@
   top: calc(100vh - 200px);
   left: calc(50% - 510px);
   z-index: -1;
+}
+
+.text-property {
+  text-align: center;
+}
+
+.restaurant-address, .restaurant-website {
+  display: block;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: black;
+  margin: 0 0 5px;
 }

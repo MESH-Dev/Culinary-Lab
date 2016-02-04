@@ -18,38 +18,75 @@ body {
 // Text
 
 h1 {
-	font-size: em(36);
+	font-size: 80px;
+	line-height: 90px;
+	text-align: center;
+	font-family: $font-family--tertiary;
+	text-transform: uppercase;
+	color: black;
+	font-weight: 500;
+	letter-spacing: -20px;
 }
 
 h2 {
-	font-size: em(26);
+	font-size: 50px;
+	line-height: 58px;
+	font-family: $font-family--tertiary;
+	text-transform: uppercase;
+	text-align: center;
+	color: black;
+	font-weight: 500;
+	letter-spacing: -7px;
 }
 
 h3 {
-	font-size: em(18);
+	font-size: 40px;
+	line-height: 46px;
+	font-family: $font-family--tertiary;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: black;
 }
 
 h4 {
-	margin-top: em(22, 14);
-	margin-bottom: em(32, 14);
-	color: palette(grey, x-light);
+	font-size: 26px;
+	font-weight: 500;
+	font-family: $font-family--tertiary;
 	text-transform: uppercase;
-	letter-spacing: $letter-space;
-	font-weight: $font-weight--medium;
-	font-size: em(14);
+	color: black;
+	letter-spacing: -5px;
+	margin: 0 -6px 10px;
+}
+
+h5 {
+	font-family: $font-family--secondary;
+	font-size: 26px;
+	line-height: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+}
+
+h6 {
+	font-family: $font-family--secondary;
+	font-size: 18px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: black;
+	margin: 0 0 5px;
 }
 
 a {
-	color: palette(grey, dark);
+	color: #4474d1;
 	text-decoration: none;
-	font-weight: $font-weight--medium;
 }
 
 p {
-	margin: 0 0 em(30px, 18px);
-	font-weight: $font-weight--light;
-	font-size: em(18px);
-	line-height: (27px/18px);
+	font-family: $font-family--secondary;
+	margin-bottom: 10px;
+	font-size: 16px;
+	line-height: 24px;
+	color: black;
 }
 
 blockquote {

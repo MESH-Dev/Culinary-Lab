@@ -42,7 +42,7 @@
 
 			<?php if (!is_front_page()) { ?>
 				<div class="logo">
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/img/inner-logo.png"; ?></a>
 				</div>
 			<?php } ?>
 
