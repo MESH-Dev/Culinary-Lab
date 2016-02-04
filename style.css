@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Theme Name: Culinary labs
 Theme URI:
@@ -427,6 +428,22 @@ html, body {
   height: 75px;
 }
 
+/* line 3, sass/layout/_footer.scss */
+footer {
+  border-top: 1px solid black;
+  text-align: center;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 13px;
+  padding: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+/* line 13, sass/layout/_footer.scss */
+footer span {
+  margin: 0 5px;
+}
+
 /* line 1, sass/layout/_background.scss */
 .background-fullscreen {
   -webkit-background-size: cover;
@@ -488,6 +505,93 @@ html, body {
 /* line 38, sass/layout/_main.scss */
 .listing .listing-item a {
   color: black;
+}
+
+/* line 49, sass/layout/_main.scss */
+.contacting .contacting-button {
+  padding: 20px;
+  font-size: 16px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 50px auto;
+  color: black;
+  width: 200px;
+}
+
+/* line 1, sass/layout/_slider.scss */
+.slick-dots {
+  position: absolute;
+  bottom: 35px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+/* line 16, sass/layout/_slider.scss */
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* line 29, sass/layout/_slider.scss */
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+/* line 50, sass/layout/_slider.scss */
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+  outline: none;
+}
+
+/* line 55, sass/layout/_slider.scss */
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  opacity: 1;
+}
+
+/* line 60, sass/layout/_slider.scss */
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 40px;
+  line-height: 13px;
+  position: absolute;
+  top: 0;
+  left: -1px;
+  width: 10px;
+  height: 10px;
+  content: '•';
+  text-align: center;
+  opacity: 0;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 82, sass/layout/_slider.scss */
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: white;
 }
 
 /* line 1, sass/modules/_menus.scss */

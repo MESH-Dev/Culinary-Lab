@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="twelve columns">
-					<p>Designed by <a href="http://meshfresh.com" target="_blank">MESH</a></p>
+				<span>8033 Sunset Blvd #877, Los Angeles, CA 90046</span> / <span>info@culinarylab.com</span> / <span>(424) 284-2580</span> / <span>Instagram</span>
 			</div><!-- End of Footer -->
 		</div>
 	</div>

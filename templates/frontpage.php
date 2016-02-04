@@ -11,15 +11,15 @@ get_header(); ?>
     </div>
     <div class="more">
       <div class="more-text">Our Restaurants</div>
-      <img src="<?php echo get_template_directory_uri(); ?>/img/arrow-down.png" />
+      <a href="#down"><img src="<?php echo get_template_directory_uri(); ?>/img/arrow-down.png" /></a>
     </div>
   </div>
 
     <!-- Loop through and list the different restaurants -->
 
-  <div class="container">
-    <div class="six columns offset-by-three">
-      <div class="listing">
+  <div class="listing" id="down">
+    <div class="container">
+      <div class="six columns offset-by-three">
 
         <?php $loop = new WP_Query( array( 'post_type' => 'restaurants', 'posts_per_page' => -1, 'order' => 'ASC' ) ); ?>
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
@@ -32,6 +32,51 @@ get_header(); ?>
 
       </div>
     </div>
+  </div>
+
+  <div class="sliding">
+
+    <div class="slider">
+
+      <?php
+
+      // check if the repeater field has rows of data
+      if( have_rows('slider_images') ):
+
+       	// loop through the rows of data
+          while ( have_rows('slider_images') ) : the_row();
+
+              // display a sub field value
+              $image = get_sub_field('slider_image');
+
+              if( !empty($image) ) {
+              	$thumb = $image['url'];
+              }
+
+              echo '<div><img src="' . $thumb . '" /></div>';
+
+          endwhile;
+
+      else :
+
+          // no rows found
+
+      endif;
+
+      ?>
+
+    </div>
+
+  </div>
+
+  <div class="contacting">
+
+    <div class="container">
+      <div class="four columns offset-by-four">
+        <div class="contacting-button"><a href="">More About Us</a></div>
+      </div>
+    </div>
+
   </div>
 
 </main><!-- #main -->

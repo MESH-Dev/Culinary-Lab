@@ -1,7 +1,13 @@
 jQuery(document).ready(function($){
 
-  //Are we loaded?
-  console.log('New theme loaded!');
+
+  $(document).ready(function(){
+    $('.slider').slick({
+      autoplay: true,
+      arrows: false,
+      dots: true
+    });
+  });
 
   //Let's do something awesome!
 
