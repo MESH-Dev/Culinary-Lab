@@ -1,6 +1,5 @@
 jQuery(document).ready(function($){
 
-
   $(document).ready(function(){
     $('.slider').slick({
       autoplay: true,
@@ -25,5 +24,11 @@ jQuery(document).ready(function($){
       }
     });
   });
+
+  // Filtering and sorting
+
+  $(function(){
+    $('#container').mixItUp();
+});
 
 });

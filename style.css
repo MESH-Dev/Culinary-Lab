@@ -599,6 +599,16 @@ main {
   padding-bottom: 50px;
 }
 
+/* line 91, sass/layout/_main.scss */
+#container .mix {
+  display: none;
+}
+
+/* line 95, sass/layout/_main.scss */
+.filter {
+  cursor: pointer;
+}
+
 /* line 1, sass/layout/_slider.scss */
 .slick-dots {
   position: absolute;
