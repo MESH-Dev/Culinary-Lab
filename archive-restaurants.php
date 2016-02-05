@@ -19,7 +19,7 @@ get_header(); ?>
 			<?php $loop = new WP_Query( array( 'post_type' => 'restaurants', 'posts_per_page' => -1, 'order' => 'ASC' ) ); ?>
       <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
-				<div class="row" id="<?php echo $post->post_name; ?>">
+				<div class="row property" id="<?php echo $post->post_name; ?>">
 					<div class="six columns">
 						<h4 class="restaurant-title"><?php the_title(); ?></h4>
 						<h6>Executive Chef</h6>
