@@ -610,6 +610,33 @@ main {
   cursor: pointer;
 }
 
+/* line 100, sass/layout/_main.scss */
+.case-study-top {
+  text-align: center;
+  display: table;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  z-index: 10;
+}
+/* line 108, sass/layout/_main.scss */
+.case-study-top:hover {
+  background-image: none !important;
+}
+
+/* line 117, sass/layout/_main.scss */
+.case-study-text {
+  border-bottom: 1px solid black;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 100px;
+}
+
+/* line 124, sass/layout/_main.scss */
+.case-study-line {
+  text-align: center;
+}
+
 /* line 1, sass/layout/_slider.scss */
 .slick-dots {
   position: absolute;
