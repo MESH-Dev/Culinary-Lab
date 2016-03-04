@@ -31,6 +31,7 @@ body.home.page{
 .more-text {
   font-size: 16px;
   margin-bottom: 20px;
+  letter-spacing: .09em;
 }
 
 .listing {
@@ -203,7 +204,15 @@ ul.single-results{
     cursor:pointer;
 }
 
-@media only screen and (max-width: 768px){
+.nav_trigger.hide,
+  .close{
+    img{
+      max-width:26px;
+      max-height:26px;
+    }
+  }
+
+@media only screen and (max-width: 845px){
   .results.hide{
     display:none;
     visibility:hidden;
@@ -218,7 +227,12 @@ ul.single-results{
     text-align:right;
     padding-top:10px;
     padding-right:10px;
+    position:fixed;
+    right: 20px;
+    top: 25px;
   }
+
+
 
   .main-navigation{
     display:none !important;

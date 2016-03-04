@@ -47,7 +47,7 @@
 			<?php } ?>
 
 			<nav class="main-navigation">
-				<div class="close">Close X</div>
+				<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/img/sidr-close.png ?>" ></div>
 				<?php if(has_nav_menu('main_nav')){
 							$defaults = array(
 								'theme_location'  => 'main_nav',
