@@ -16,9 +16,10 @@
 		text-align: center;
 
 		ul {
-			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+			// box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 			float: left;
-			position: absolute;
+			// position: absolute;
+			display:none;
 			top: 1.5em;
 			left: -999em;
 			z-index: 99999;
@@ -29,6 +30,13 @@
 			}
 
 			li {
+
+				display:inline;
+
+				a{
+					width:auto;
+					padding: 3px;
+				}
 				&:hover > ul,
 				&.focus > ul {
 					left: 100%;
@@ -74,6 +82,10 @@
 		color: black;
 		font-weight: 700;
 		letter-spacing: 0.05em;
+
+		&:hover{
+			color:#4474d1;
+		}
 	}
 
 	.current_page_item > a,

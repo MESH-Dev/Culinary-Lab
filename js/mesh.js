@@ -56,6 +56,16 @@ jQuery(document).ready(function($){
     //$('.results.hide').remove();
   }
 
+  $('.main-navigation ul li').hover(function(){
+
+    var _this = $(this);
+
+    $(this).find('a').next().slideDown('200');
+    //$('.main-navigation ul li').not($(this)).find('ul.sub-menu').slideUp('200');
+  },function(){
+    $(this).find('a').next().slideUp('200');
+  })
+
  
   // var s = skrollr.init();
   // var s = skrollr.init({
