@@ -23,9 +23,15 @@ get_header(); ?>
           <?php if ( have_posts() ) : ?>
 
       			<?php $loop = new WP_Query( array( 'post_type' => 'casestudies', 'posts_per_page' => -1, 'order' => 'ASC' ) ); ?>
-            <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+            <?php 
+                $cs_ctr=0;
+                while ( $loop->have_posts() ) : $loop->the_post(); 
+                $cs_ctr++;
+                $count = $loop->found_posts;
+            ?>
 
-              <div class="case-study-top" style="background-image: url(<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'large', true )[0]; ?>)">
+              <div class="case-study-top" id="<?php echo $post->post_name; ?>"><!-- style="background-image: url(<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'large', true )[0]; ?>)" -->
+                <div class="cs_image" style="background-image: url(<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'study_size', true )[0]; ?>)"> <!-- <img src="<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'study_size', true )[0]; ?>"> --></div>
                 <div class="case-study-text">
 
                   <?php the_content(); ?>
@@ -33,12 +39,18 @@ get_header(); ?>
               </div>
 
               <div class="case-study-bottom">
-                <h5>Title of case study here if long, two lines</h5>
+                <h5><?php the_title(); ?></h5>
               </div>
 
+              <?php 
+              $final = $count-$cs_ctr;
+              //var_dump($final);
+              if ($final > 0){ 
+              ?>
               <div class="case-study-line">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/blue-short-line.png" />
               </div>
+              <?php } ?>
 
             <?php endwhile; // end of the loop. ?>
 

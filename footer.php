@@ -14,8 +14,16 @@
 
 <?php wp_footer(); ?>
 
-<script src="https://use.typekit.net/ich7tca.js"></script>
+<script src="https://use.typekit.net/tis7mcq.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+<?php if (is_front_page()){ ?>
+<script>	var s = skrollr.init();</script>
+<?php } ?>
+
+<!-- Original typekit fonts -->
+<!--<script src="https://use.typekit.net/ich7tca.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>-->
 
 </body>
 </html>

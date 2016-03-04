@@ -5,12 +5,15 @@ footer {
   text-align: center;
   font-family: $font-family--secondary;
   font-size: 13px;
-  padding: 30px;
+  //padding: 30px;
+  padding-top:2rem;
+  padding-bottom:0;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-weight: 700;
   float: left;
   width: 100%;
+ 
 
   span {
     margin: 0 5px;

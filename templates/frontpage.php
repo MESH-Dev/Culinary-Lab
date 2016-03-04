@@ -79,9 +79,15 @@ get_header(); ?>
 
   </div>
 
-  <div class="blue-rectangle">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/blue-rectangle.png" />
-  </div>
+    <div class="blue-rectangle skrollable skrollable-between" data-0="top:80%;" data-end="top:-100%">
+      <!-- <div class="parallax-container">
+      <div class="parallax"> -->
+        <!-- <div class="skrollable skrollable-between" data-0="top:0%;" data-end="top:100%;" > -->
+        <img src="<?php echo get_template_directory_uri(); ?>/img/blue-rectangle.png" />
+      <!-- </div> -->
+     <!--  </div>
+    </div> -->
+    </div>
 
 </main><!-- #main -->
 

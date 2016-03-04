@@ -25,10 +25,73 @@ jQuery(document).ready(function($){
     });
   });
 
-  // Filtering and sorting
+  // $('.pub-title').click(function(){
+  //   $(this).addClass('active');
+  //   $(this).not($(this)).removeClass('active');
+  // });
 
+  var bh = $('body.post-type-archive-press').height();
+
+
+  function fix_body_height(){
+    $('.post-type-archive-press').css({'height': bh-100});
+  }
+  
+  $(window).load(fix_body_height);
+  $(window).resize(fix_body_height);
+
+  $('.parallax').parallax();
+
+  var ww = $(window).width();
+
+  if (ww <= 768){
+
+    //Mobile layout for press items
+    $('.filter').click(function(){
+      $(this).toggleClass('active');
+      $(this).next().slideToggle('slow');
+      $('.filter').not($(this)).removeClass('active').next().slideUp('slow');
+    });
+
+    //$('.results.hide').remove();
+  }
+
+ 
+  // var s = skrollr.init();
+  // var s = skrollr.init({
+  //   edgeStrategy: 'set',
+  //   easing: {
+  //     WTF: Math.random,
+  //     inverted: function(p) {
+  //       return 1-p;
+  //     }
+  //   }
+  // });
+  
+ // var dh = $(document).height();
+ //  var blh = $('.blue-rectangle').height();
+
+ //  $('body').css({'height':dh-blh});
+
+ // sidr - mobile show/hide nav
+
+  $('.nav_trigger').sidr({
+      name: 'sidr-main',
+      source: '.main-navigation',
+      renaming: false,
+    });
+
+   $('.sidr-close').click(
+    function(){
+      $.sidr('close', 'sidr-main');
+       //console.log("Sidr should be closed");
+    });
+
+
+  // Filtering and sorting
+if (ww > 768){
   $(function(){
     $('#container').mixItUp();
 });
-
+}
 });

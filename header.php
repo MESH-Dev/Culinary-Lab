@@ -42,7 +42,7 @@
 
 			<?php if (!is_front_page()) { ?>
 				<div class="logo">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/img/inner-logo.png"; ?></a>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/img/inner-logo.png ?>" ></a>
 				</div>
 			<?php } ?>
 
@@ -70,5 +70,7 @@
 							echo "<p><em>main_nav</em> doesn't exist! Create it and it'll render here.</p>";
 						} ?>
 			</nav>
+
+			<div class="nav_trigger hide"><img src="<?php echo get_template_directory_uri(); ?>/img/nav_trigger.png ?>" ></div>
 
 		</header>

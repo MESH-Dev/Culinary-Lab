@@ -88,42 +88,43 @@ a:active {
 /* line 86, sass/base/_normalize.scss */
 a:hover {
   opacity: 0.7;
+  color: #4474d1;
 }
 
-/* line 94, sass/base/_normalize.scss */
+/* line 95, sass/base/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 101, sass/base/_normalize.scss */
+/* line 102, sass/base/_normalize.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 109, sass/base/_normalize.scss */
+/* line 110, sass/base/_normalize.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 117, sass/base/_normalize.scss */
+/* line 118, sass/base/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 125, sass/base/_normalize.scss */
+/* line 126, sass/base/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
 }
 
-/* line 133, sass/base/_normalize.scss */
+/* line 134, sass/base/_normalize.scss */
 small {
   font-size: 80%;
 }
 
-/* line 140, sass/base/_normalize.scss */
+/* line 141, sass/base/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -132,44 +133,44 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 148, sass/base/_normalize.scss */
+/* line 149, sass/base/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 152, sass/base/_normalize.scss */
+/* line 153, sass/base/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 160, sass/base/_normalize.scss */
+/* line 161, sass/base/_normalize.scss */
 img {
   border: 0;
 }
 
-/* line 167, sass/base/_normalize.scss */
+/* line 168, sass/base/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 175, sass/base/_normalize.scss */
+/* line 176, sass/base/_normalize.scss */
 figure {
   margin: 1em 40px;
 }
 
-/* line 182, sass/base/_normalize.scss */
+/* line 183, sass/base/_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
 
-/* line 191, sass/base/_normalize.scss */
+/* line 192, sass/base/_normalize.scss */
 pre {
   overflow: auto;
 }
 
-/* line 198, sass/base/_normalize.scss */
+/* line 199, sass/base/_normalize.scss */
 code,
 kbd,
 pre,
@@ -178,7 +179,7 @@ samp {
   font-size: 1em;
 }
 
-/* line 217, sass/base/_normalize.scss */
+/* line 218, sass/base/_normalize.scss */
 button,
 input,
 optgroup,
@@ -189,18 +190,18 @@ textarea {
   margin: 0;
 }
 
-/* line 230, sass/base/_normalize.scss */
+/* line 231, sass/base/_normalize.scss */
 button {
   overflow: visible;
 }
 
-/* line 240, sass/base/_normalize.scss */
+/* line 241, sass/base/_normalize.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 252, sass/base/_normalize.scss */
+/* line 253, sass/base/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -209,25 +210,25 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 263, sass/base/_normalize.scss */
+/* line 264, sass/base/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/* line 271, sass/base/_normalize.scss */
+/* line 272, sass/base/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 281, sass/base/_normalize.scss */
+/* line 282, sass/base/_normalize.scss */
 input {
   line-height: normal;
 }
 
-/* line 287, sass/base/_normalize.scss */
+/* line 288, sass/base/_normalize.scss */
 *
 input[type="checkbox"],
 input[type="radio"] {
@@ -235,13 +236,13 @@ input[type="radio"] {
   padding: 0;
 }
 
-/* line 303, sass/base/_normalize.scss */
+/* line 304, sass/base/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/* line 313, sass/base/_normalize.scss */
+/* line 314, sass/base/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
@@ -249,42 +250,42 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 325, sass/base/_normalize.scss */
+/* line 326, sass/base/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 333, sass/base/_normalize.scss */
+/* line 334, sass/base/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
-/* line 343, sass/base/_normalize.scss */
+/* line 344, sass/base/_normalize.scss */
 legend {
   border: 0;
   padding: 0;
 }
 
-/* line 351, sass/base/_normalize.scss */
+/* line 352, sass/base/_normalize.scss */
 textarea {
   overflow: auto;
 }
 
-/* line 359, sass/base/_normalize.scss */
+/* line 360, sass/base/_normalize.scss */
 optgroup {
   font-weight: bold;
 }
 
-/* line 367, sass/base/_normalize.scss */
+/* line 368, sass/base/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 372, sass/base/_normalize.scss */
+/* line 373, sass/base/_normalize.scss */
 td,
 th {
   padding: 0;
@@ -475,14 +476,15 @@ footer {
   text-align: center;
   font-family: "proxima-nova", sans-serif;
   font-size: 13px;
-  padding: 30px;
+  padding-top: 2rem;
+  padding-bottom: 0;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-weight: 700;
   float: left;
   width: 100%;
 }
-/* line 15, sass/layout/_footer.scss */
+/* line 18, sass/layout/_footer.scss */
 footer span {
   margin: 0 5px;
 }
@@ -506,14 +508,20 @@ footer span {
 main {
   width: 100%;
   float: left;
+  min-height: 600px;
 }
 
-/* line 5, sass/layout/_main.scss */
+/* line 7, sass/layout/_main.scss */
+body.home.page {
+  max-height: 3000px !important;
+}
+
+/* line 11, sass/layout/_main.scss */
 .landing {
   min-height: 100vh;
 }
 
-/* line 9, sass/layout/_main.scss */
+/* line 15, sass/layout/_main.scss */
 .centered {
   position: absolute;
   top: 50%;
@@ -522,7 +530,7 @@ main {
   transform: translate(-50%, -50%);
 }
 
-/* line 17, sass/layout/_main.scss */
+/* line 23, sass/layout/_main.scss */
 .more {
   position: absolute;
   bottom: 0;
@@ -531,26 +539,26 @@ main {
   text-align: center;
 }
 
-/* line 25, sass/layout/_main.scss */
+/* line 31, sass/layout/_main.scss */
 .more-text {
   font-size: 16px;
   margin-bottom: 20px;
 }
 
-/* line 30, sass/layout/_main.scss */
+/* line 36, sass/layout/_main.scss */
 .listing {
   padding: 50px 0 100px;
 }
-/* line 33, sass/layout/_main.scss */
+/* line 39, sass/layout/_main.scss */
 .listing .listing-item {
-  padding: 50px 0;
+  padding: 20px 0;
 }
-/* line 36, sass/layout/_main.scss */
+/* line 42, sass/layout/_main.scss */
 .listing .listing-item a {
   color: black;
 }
 
-/* line 48, sass/layout/_main.scss */
+/* line 54, sass/layout/_main.scss */
 .contacting .contacting-button {
   padding: 20px;
   font-size: 16px;
@@ -559,22 +567,29 @@ main {
   margin: 50px auto;
   color: black;
   width: 200px;
+  transition: all .3s ease-in-out;
+}
+/* line 64, sass/layout/_main.scss */
+.contacting .contacting-button:hover {
+  background: black;
+  color: white;
 }
 
-/* line 59, sass/layout/_main.scss */
+/* line 71, sass/layout/_main.scss */
 .blue-rectangle {
   position: absolute;
+  height: 0;
   top: calc(100vh - 200px);
   left: calc(50% - 510px);
   z-index: -1;
 }
 
-/* line 66, sass/layout/_main.scss */
+/* line 79, sass/layout/_main.scss */
 .text-property {
   text-align: center;
 }
 
-/* line 70, sass/layout/_main.scss */
+/* line 83, sass/layout/_main.scss */
 .restaurant-address, .restaurant-website {
   display: block;
   font-family: "proxima-nova", sans-serif;
@@ -584,33 +599,50 @@ main {
   margin: 0 0 5px;
 }
 
-/* line 79, sass/layout/_main.scss */
+/* line 92, sass/layout/_main.scss */
 .property {
   padding-bottom: 75px;
 }
+/* line 95, sass/layout/_main.scss */
+.property .content {
+  width: 95%;
+}
+/* line 99, sass/layout/_main.scss */
+.property p {
+  padding-bottom: 20px;
+}
 
-/* line 83, sass/layout/_main.scss */
+/* line 104, sass/layout/_main.scss */
 .press {
   margin: 50px 0;
 }
 
-/* line 87, sass/layout/_main.scss */
+/* line 108, sass/layout/_main.scss */
 .property-item {
   padding-bottom: 50px;
 }
 
-/* line 91, sass/layout/_main.scss */
+/* line 112, sass/layout/_main.scss */
 #container .mix {
   display: none;
   margin-bottom: 20px;
+  width: 100%;
 }
 
-/* line 96, sass/layout/_main.scss */
+/* line 118, sass/layout/_main.scss */
 .filter {
   cursor: pointer;
 }
+/* line 121, sass/layout/_main.scss */
+.filter.active h3 {
+  color: #4474d1;
+}
+/* line 126, sass/layout/_main.scss */
+.filter h3:hover {
+  color: #4474d1;
+}
 
-/* line 100, sass/layout/_main.scss */
+/* line 132, sass/layout/_main.scss */
 .case-study-top {
   text-align: center;
   display: table;
@@ -618,25 +650,85 @@ main {
   height: 400px;
   position: relative;
   z-index: 10;
+  border: 1px solid #ffffff;
+  overflow: hidden;
 }
-/* line 108, sass/layout/_main.scss */
+/* line 142, sass/layout/_main.scss */
 .case-study-top:hover {
   background-image: none !important;
+  border: 1px solid #000000;
 }
 
-/* line 117, sass/layout/_main.scss */
+/* line 148, sass/layout/_main.scss */
+.cs_image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all .2s ease-in-out;
+}
+/* line 157, sass/layout/_main.scss */
+.cs_image:hover {
+  opacity: 0;
+}
+
+/* line 166, sass/layout/_main.scss */
 .case-study-text {
-  border-bottom: 1px solid black;
   display: table-cell;
   vertical-align: middle;
   padding: 100px;
 }
 
-/* line 124, sass/layout/_main.scss */
+/* line 173, sass/layout/_main.scss */
 .case-study-line {
   text-align: center;
+  margin-bottom: 40px;
 }
 
+/* line 178, sass/layout/_main.scss */
+ul.single-results {
+  display: none;
+}
+
+/* line 183, sass/layout/_main.scss */
+.nav_trigger.hide {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 188, sass/layout/_main.scss */
+  .results.hide {
+    display: none;
+    visibility: hidden;
+  }
+
+  /* line 193, sass/layout/_main.scss */
+  h2 {
+    font-size: 42px;
+  }
+
+  /* line 197, sass/layout/_main.scss */
+  .nav_trigger.hide {
+    display: block;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+
+  /* line 204, sass/layout/_main.scss */
+  .main-navigation {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 215, sass/layout/_main.scss */
+  h1 {
+    font-size: 60px;
+    line-height: 1.25;
+  }
+}
 /* line 1, sass/layout/_slider.scss */
 .slick-dots {
   position: absolute;
