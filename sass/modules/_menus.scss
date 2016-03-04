@@ -8,6 +8,7 @@
 	font-size: 13px;
 	letter-spacing:.05em;
 	font-family: $font-family--secondary;
+	font-weight:400;
 
 	ul {
 		display: none;
@@ -47,6 +48,7 @@
 
 			a {
 				width: 200px;
+				font-weight:400;
 			}
 
 			:hover > a,
@@ -62,6 +64,16 @@
 		li.focus > ul {
 			left: auto;
 		}
+
+
+		> li {
+			
+			&:nth-child(2) {
+				width: 130px;
+			}
+
+		}
+
 	}
 	li {
 		display: inline-block;
@@ -82,7 +94,7 @@
 		display: block;
 		text-decoration: none;
 		color: black;
-		font-weight: 700;
+		font-weight: 400;
 		letter-spacing: 0.05em;
 
 		&:hover{
@@ -144,7 +156,7 @@
 				text-transform: uppercase;
 			    font-size: 13px;
 			    font-family: "proxima-nova", sans-serif;
-			    font-weight:600;
+			    font-weight:400;
 
 			    &:hover,
 			    &:focus,

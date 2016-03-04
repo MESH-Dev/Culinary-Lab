@@ -87,6 +87,8 @@ jQuery(document).ready(function($){
 
   $('.nav_trigger').sidr({
       name: 'sidr-main',
+      side: 'right',
+      displace: false,
       source: '.main-navigation',
       renaming: false,
     });

@@ -9,7 +9,8 @@ body.home.page{
 }
 
 .landing {
-  min-height: 100vh;
+  min-height: calc(100vh - 74px);
+  position: relative;
 }
 
 .centered {
@@ -53,14 +54,15 @@ body.home.page{
 
 .contacting {
   .contacting-button {
-    padding: 20px;
+    padding: 15px 20px;
     font-size: 16px;
     border: 1px solid black;
     text-align: center;
-    margin: 50px auto;
+    margin: 55px auto;
     color: black;
     width: 200px;
     transition:all .3s ease-in-out;
+    letter-spacing:.09em;
 
     &:hover{
       background:black;
@@ -77,8 +79,18 @@ body.home.page{
   z-index: -1;
 }
 
+.page-content{
+  margin-bottom:30px;
+}
+
 .text-property {
   text-align: center;
+}
+
+.text{
+  .container{
+    width:90%;
+  }
 }
 
 .restaurant-address, .restaurant-website {
@@ -88,6 +100,10 @@ body.home.page{
   line-height: 24px;
   color: black;
   margin: 0 0 5px;
+}
+
+.restaurant-website{
+  margin: 0 0 10px;
 }
 
 .property {
@@ -193,8 +209,8 @@ ul.single-results{
   font-size: 16;
     font-family: "freight-text-pro", Helvetica, Arial, sans-serif;
     text-align:right;
-    padding-right:10px;
-    padding-top:10px;
+    padding-right: 20px;
+    padding-top: 25px;
     padding-bottom:10px;
     display:none;
     text-transform: uppercase;
@@ -230,9 +246,14 @@ ul.single-results{
     position:fixed;
     right: 20px;
     top: 25px;
+    z-index: 99999;
   }
 
-
+  .text{
+  .container{
+    width:100%;
+  }
+}
 
   .main-navigation{
     display:none !important;
@@ -255,10 +276,16 @@ ul.single-results{
         line-height:1.25;
   }
 
+  .text{
+  .container{
+    width:100%;
+  }
+}
+
   h2{
     font-size: 38px;
     line-height: 1.25;
   }
 
-  
+
 }

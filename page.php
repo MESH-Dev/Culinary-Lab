@@ -12,31 +12,12 @@
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="six columns">
-
-					<?php if (have_rows('case_study') ) :
-							while (have_rows('case_study')) : the_row();
-
-							$image = get_sub_field('image');
-							$image_URL = $image['sizes']['study-size'];
-							var_dump($image)
-							$summary_text = get_sub_field('summary_text');
-							$title = get_sub_field('title');
-
-							if($image != '' || $summary_text != '' || $title != ''){
-					?>
-
-					<div class="case_study">
-						<img src="<?php echo $image_URL; ?>" >
-						<h5><?php echo $title; ?></h5>
-						<div class="line_divider">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/blue-short-line.png"; ?>"
-
-					<?php } endwhile; endif; ?>
+			<div class="row page-content">
+				<div class="six columns text">
+					<div class="container">
 
 						<?php the_content(); ?>
-
+					</div>
 				</div>
 
 				<div class="six columns">
