@@ -73,7 +73,7 @@ get_header(); ?>
 
     <div class="container">
       <div class="four columns offset-by-four">
-        <a href=""><div class="contacting-button">More About Us</div></a>
+        <a href="<?php echo esc_url( home_url( '/about' ) ); ?>"><div class="contacting-button">More About Us</div></a>
       </div>
     </div>
 

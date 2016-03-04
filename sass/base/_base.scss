@@ -64,10 +64,11 @@ h4 {
 h5 {
 	font-family: $font-family--secondary;
 	font-size: 26px;
-	line-height: 24px;
+	line-height: 1.4em;
 	text-align: center;
 	text-transform: uppercase;
 	color: black;
+	letter-spacing:.03em;
 }
 
 h6 {
