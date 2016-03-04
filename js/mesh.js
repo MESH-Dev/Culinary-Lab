@@ -91,7 +91,7 @@ jQuery(document).ready(function($){
       renaming: false,
     });
 
-   $('.sidr-close').click(
+   $('.close').click(
     function(){
       $.sidr('close', 'sidr-main');
        //console.log("Sidr should be closed");
