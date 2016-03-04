@@ -61,6 +61,16 @@
 		li.focus > ul {
 			left: auto;
 		}
+
+
+		> li {
+			
+			&:nth-child(2) {
+				width: 165px;
+			}
+
+		}
+
 	}
 	li {
 		display: inline-block;

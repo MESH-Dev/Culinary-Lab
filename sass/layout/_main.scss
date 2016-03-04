@@ -9,7 +9,8 @@ body.home.page{
 }
 
 .landing {
-  min-height: 100vh;
+  min-height: calc(100vh - 74px);
+  position: relative;
 }
 
 .centered {
@@ -246,5 +247,5 @@ ul.single-results{
     line-height: 1.25;
   }
 
-  
+
 }
