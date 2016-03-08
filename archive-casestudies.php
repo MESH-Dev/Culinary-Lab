@@ -18,7 +18,7 @@ get_header(); ?>
   		</div>
 
   		<div class="row">
-  			<div class="ten columns offset-by-one">
+
 
           <?php if ( have_posts() ) : ?>
 
@@ -30,6 +30,7 @@ get_header(); ?>
                 $count = $loop->found_posts;
             ?>
 
+            <div class="ten columns offset-by-one">
               <div class="case-study-top" id="<?php echo $post->post_name; ?>"><!-- style="background-image: url(<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'large', true )[0]; ?>)" -->
                 <div class="cs_image" style="background-image: url(<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'study-size', true )[0]; ?>)"> <!-- <img src="<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'study_size', true )[0]; ?>"> --></div>
                 <div class="case-study-text">
@@ -37,11 +38,15 @@ get_header(); ?>
                   <?php the_content(); ?>
                 </div>
               </div>
+            </div>
 
+            <div class="six columns offset-by-three">
               <div class="case-study-bottom">
                 <h5><?php the_title(); ?></h5>
               </div>
+            </div>
 
+            <div class="twelve columns">
               <?php
               $final = $count-$cs_ctr;
               //var_dump($final);
@@ -51,12 +56,13 @@ get_header(); ?>
                 <img src="<?php echo get_template_directory_uri(); ?>/img/CaseStudiesStripe.png" />
               </div>
               <?php } ?>
+            </div>
 
             <?php endwhile; // end of the loop. ?>
 
       		<?php endif; ?>
 
-  			</div>
+
   		</div>
   	</div>
 
