@@ -18,22 +18,34 @@ body.home.page{
 
 .landing {
   min-height: calc(100vh - 84px);
+  min-height: -webkit-calc(100vh - 84px);
+  min-height: -moz-calc(100vh - 84px);
+
   position: relative;
   width: 100%;
 
   @include mq($main-width, 'max-width') {
     min-height: calc(100vh - 140px);
+    min-height: -webkit-calc(100vh - 140px);
+    min-height: -moz-calc(100vh - 140px);
   }
 }
 
 .centered {
   position: absolute;
   top: calc(50% - 84px);
+  top: -webkit-calc(50% - 84px);
+  top: -moz-calc(50% - 84px);
+
   left: calc(50% - 85px);
+  left: -webkit-calc(50% - 85px);
+  left: -moz-calc(50% - 85px);
   /* bring your own prefixes */
 
   @include mq($main-width, 'max-width') {
     top: calc(50% - 140px);
+    top: -webkit-calc(50% - 140px);
+    top: -moz-calc(50% - 140px);
   }
 }
 
@@ -93,7 +105,13 @@ body.home.page{
   position: absolute;
   height:0;
   top: calc(100vh - 200px);
+  top: -webkit-calc(100vh - 200px);
+  top: -moz-calc(100vh - 200px);
+
   left: calc(50% - 510px);
+  left: -webkit-calc(50% - 510px);
+  left: -moz-calc(50% - 510px);
+  
   z-index: -1;
 }
 

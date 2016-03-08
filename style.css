@@ -961,6 +961,8 @@ body.home.page {
 /* line 19, sass/layout/_main.scss */
 .landing {
   min-height: calc(100vh - 84px);
+  min-height: -webkit-calc(100vh - 84px);
+  min-height: -moz-calc(100vh - 84px);
   position: relative;
   width: 100%;
 }
@@ -968,24 +970,32 @@ body.home.page {
   /* line 19, sass/layout/_main.scss */
   .landing {
     min-height: calc(100vh - 140px);
+    min-height: -webkit-calc(100vh - 140px);
+    min-height: -moz-calc(100vh - 140px);
   }
 }
 
-/* line 29, sass/layout/_main.scss */
+/* line 34, sass/layout/_main.scss */
 .centered {
   position: absolute;
   top: calc(50% - 84px);
+  top: -webkit-calc(50% - 84px);
+  top: -moz-calc(50% - 84px);
   left: calc(50% - 85px);
+  left: -webkit-calc(50% - 85px);
+  left: -moz-calc(50% - 85px);
   /* bring your own prefixes */
 }
 @media screen and (max-width: 900px) {
-  /* line 29, sass/layout/_main.scss */
+  /* line 34, sass/layout/_main.scss */
   .centered {
     top: calc(50% - 140px);
+    top: -webkit-calc(50% - 140px);
+    top: -moz-calc(50% - 140px);
   }
 }
 
-/* line 40, sass/layout/_main.scss */
+/* line 52, sass/layout/_main.scss */
 .more {
   position: absolute;
   bottom: 0;
@@ -994,28 +1004,28 @@ body.home.page {
   text-align: center;
 }
 
-/* line 48, sass/layout/_main.scss */
+/* line 60, sass/layout/_main.scss */
 .more-text {
   font-size: 16px;
   margin-bottom: 20px;
   letter-spacing: .09em;
 }
 
-/* line 54, sass/layout/_main.scss */
+/* line 66, sass/layout/_main.scss */
 .listing {
   padding: 50px 0 100px;
   position: relative;
 }
-/* line 58, sass/layout/_main.scss */
+/* line 70, sass/layout/_main.scss */
 .listing .listing-item {
   padding: 20px 0;
 }
-/* line 61, sass/layout/_main.scss */
+/* line 73, sass/layout/_main.scss */
 .listing .listing-item a {
   color: black;
 }
 
-/* line 73, sass/layout/_main.scss */
+/* line 85, sass/layout/_main.scss */
 .contacting .contacting-button {
   padding: 15px 20px;
   font-size: 16px;
@@ -1027,38 +1037,42 @@ body.home.page {
   transition: all .3s ease-in-out;
   letter-spacing: .09em;
 }
-/* line 84, sass/layout/_main.scss */
+/* line 96, sass/layout/_main.scss */
 .contacting .contacting-button:hover {
   background: #e9e9e9;
   color: #999999;
   border: 1px solid #999999;
 }
 
-/* line 92, sass/layout/_main.scss */
+/* line 104, sass/layout/_main.scss */
 .blue-rectangle {
   position: absolute;
   height: 0;
   top: calc(100vh - 200px);
+  top: -webkit-calc(100vh - 200px);
+  top: -moz-calc(100vh - 200px);
   left: calc(50% - 510px);
+  left: -webkit-calc(50% - 510px);
+  left: -moz-calc(50% - 510px);
   z-index: -1;
 }
 
-/* line 100, sass/layout/_main.scss */
+/* line 118, sass/layout/_main.scss */
 .page-content {
   margin-bottom: 30px;
 }
 
-/* line 104, sass/layout/_main.scss */
+/* line 122, sass/layout/_main.scss */
 .text-property {
   text-align: center;
 }
 
-/* line 109, sass/layout/_main.scss */
+/* line 127, sass/layout/_main.scss */
 .text .container {
   width: 90%;
 }
 
-/* line 114, sass/layout/_main.scss */
+/* line 132, sass/layout/_main.scss */
 .restaurant-address, .restaurant-website {
   display: block;
   font-family: "proxima-nova", sans-serif;
@@ -1068,60 +1082,60 @@ body.home.page {
   margin: 0 0 5px;
 }
 
-/* line 123, sass/layout/_main.scss */
+/* line 141, sass/layout/_main.scss */
 .restaurant-website {
   margin: 0 0 10px;
 }
 
-/* line 127, sass/layout/_main.scss */
+/* line 145, sass/layout/_main.scss */
 .property {
   padding-bottom: 75px;
 }
-/* line 130, sass/layout/_main.scss */
+/* line 148, sass/layout/_main.scss */
 .property .content {
   width: 95%;
 }
-/* line 134, sass/layout/_main.scss */
+/* line 152, sass/layout/_main.scss */
 .property:last-of-type {
   padding-bottom: 0px;
 }
 
-/* line 139, sass/layout/_main.scss */
+/* line 157, sass/layout/_main.scss */
 .press {
   margin: 50px 0;
 }
 
-/* line 143, sass/layout/_main.scss */
+/* line 161, sass/layout/_main.scss */
 .property-item {
   padding-bottom: 50px;
 }
-/* line 146, sass/layout/_main.scss */
+/* line 164, sass/layout/_main.scss */
 .property-item:last-of-type {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
-/* line 152, sass/layout/_main.scss */
+/* line 170, sass/layout/_main.scss */
 #container .mix {
   display: none;
   margin-bottom: 20px;
   width: 100%;
 }
 
-/* line 158, sass/layout/_main.scss */
+/* line 176, sass/layout/_main.scss */
 .filter {
   cursor: pointer;
 }
-/* line 161, sass/layout/_main.scss */
+/* line 179, sass/layout/_main.scss */
 .filter.active h3 {
   color: #4474d1;
 }
-/* line 166, sass/layout/_main.scss */
+/* line 184, sass/layout/_main.scss */
 .filter h3:hover {
   color: #4474d1;
 }
 
-/* line 172, sass/layout/_main.scss */
+/* line 190, sass/layout/_main.scss */
 .case-study-top {
   text-align: center;
   display: table;
@@ -1134,13 +1148,13 @@ body.home.page {
   width: 100%;
   position: relative;
 }
-/* line 184, sass/layout/_main.scss */
+/* line 202, sass/layout/_main.scss */
 .case-study-top:hover {
   background-image: none !important;
   border: 1px solid #000000;
 }
 
-/* line 190, sass/layout/_main.scss */
+/* line 208, sass/layout/_main.scss */
 .cs_image {
   position: absolute;
   top: 0;
@@ -1150,52 +1164,52 @@ body.home.page {
   background-size: cover;
   transition: all .2s ease-in-out;
 }
-/* line 199, sass/layout/_main.scss */
+/* line 217, sass/layout/_main.scss */
 .cs_image:hover {
   opacity: 0;
 }
 
-/* line 208, sass/layout/_main.scss */
+/* line 226, sass/layout/_main.scss */
 .case-study-text {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 213, sass/layout/_main.scss */
+/* line 231, sass/layout/_main.scss */
 .case-study-text .case-study-text-inner {
   width: 350px;
   margin: auto;
   padding: 20px;
 }
 @media screen and (max-width: 900px) {
-  /* line 213, sass/layout/_main.scss */
+  /* line 231, sass/layout/_main.scss */
   .case-study-text .case-study-text-inner {
     width: 100%;
   }
 }
 
-/* line 225, sass/layout/_main.scss */
+/* line 243, sass/layout/_main.scss */
 .case-study-line {
   text-align: center;
   margin: 0 auto 40px;
   width: 90px;
 }
 
-/* line 231, sass/layout/_main.scss */
+/* line 249, sass/layout/_main.scss */
 ul.single-results {
   display: none;
 }
 
-/* line 236, sass/layout/_main.scss */
+/* line 254, sass/layout/_main.scss */
 .nav_trigger {
   cursor: pointer;
 }
 
-/* line 240, sass/layout/_main.scss */
+/* line 258, sass/layout/_main.scss */
 .nav_trigger.hide {
   display: none;
 }
 
-/* line 244, sass/layout/_main.scss */
+/* line 262, sass/layout/_main.scss */
 .close {
   font-size: 16;
   font-family: "freight-text-pro", Helvetica, Arial, sans-serif;
@@ -1212,13 +1226,13 @@ ul.single-results {
 }
 
 @media only screen and (max-width: 1100px) {
-  /* line 261, sass/layout/_main.scss */
+  /* line 279, sass/layout/_main.scss */
   .results.hide {
     display: none;
     visibility: hidden;
   }
 
-  /* line 266, sass/layout/_main.scss */
+  /* line 284, sass/layout/_main.scss */
   .nav_trigger.hide {
     display: block;
     text-align: right;
@@ -1228,32 +1242,32 @@ ul.single-results {
     z-index: 99999;
   }
 
-  /* line 276, sass/layout/_main.scss */
+  /* line 294, sass/layout/_main.scss */
   .text .container {
     width: 100%;
   }
 
-  /* line 281, sass/layout/_main.scss */
+  /* line 299, sass/layout/_main.scss */
   .main-navigation {
     display: none !important;
   }
 
-  /* line 290, sass/layout/_main.scss */
+  /* line 308, sass/layout/_main.scss */
   .sidr .sidr-inner .close {
     display: block;
   }
 
-  /* line 295, sass/layout/_main.scss */
+  /* line 313, sass/layout/_main.scss */
   main {
     margin-top: 140px;
   }
 
-  /* line 300, sass/layout/_main.scss */
+  /* line 318, sass/layout/_main.scss */
   .text .container {
     width: 100%;
   }
 }
-/* line 308, sass/layout/_main.scss */
+/* line 326, sass/layout/_main.scss */
 .title {
   font-family: "freight-text-pro", Helvetica, Arial, sans-serif;
   letter-spacing: 0.09em;
