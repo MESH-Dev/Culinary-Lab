@@ -80,7 +80,7 @@ get_header(); ?>
 
   </div>
 
-    <div id="skrollr-body" class="blue-rectangle skrollable skrollable-between" data-0="top[quadratic]:80%;" data-end="top[quadratic]:-100%">
+    <div id="skrollr-body" class="blue-rectangle skrollable skrollable-between" data-0="top[quadratic]:80%;" data-end="top[quadratic]:100%">
       <!-- <div class="parallax-container">
       <div class="parallax"> -->
         <!-- <div class="skrollable skrollable-between" data-0="top:0%;" data-end="top:100%;" > -->
