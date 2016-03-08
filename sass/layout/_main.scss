@@ -40,6 +40,7 @@ body.home.page{
   left: calc(50% - 85px);
   left: -webkit-calc(50% - 85px);
   left: -moz-calc(50% - 85px);
+  width: 170px;
   /* bring your own prefixes */
 
   @include mq($main-width, 'max-width') {
@@ -111,7 +112,7 @@ body.home.page{
   left: calc(50% - 510px);
   left: -webkit-calc(50% - 510px);
   left: -moz-calc(50% - 510px);
-  
+
   z-index: -1;
 }
 
