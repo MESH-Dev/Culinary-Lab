@@ -105,6 +105,29 @@ jQuery(document).ready(function($){
        //console.log("Sidr should be closed");
     });
 
+  $('.menu-item-39 ul.sub-menu li').each(function(){
+
+
+
+    var type = window.location.hash.substr(1);
+    var url = $(this).find('a').attr('href');
+    var path = window.location.href;
+
+    if (path.indexOf('#') >= 0) {
+      if (url.indexOf(type) >= 0) {
+
+      } else {
+        $(this).removeClass('current-menu-item');
+      }
+    } else {
+      $(this).removeClass('current-menu-item');
+    }
+
+
+  });
+
+
+
 
   // Filtering and sorting
 if (ww > 768){

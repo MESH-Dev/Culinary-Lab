@@ -25,6 +25,7 @@ $base-width: if($is-fluid, 98%, ($base-col-width + $base-gutter-width) * $base-c
 // BREAKPOINTS
 
 $desktop-width: 1280px !global;
+$main-width: 900px !global;
 $tablet-width: 768px !global; // the tablet width media query
 $mobile-portrait-width: 300px !global; // the mobile portrait media query
 $mobile-landscape-width: 420px !global; // the mobile landscape media query

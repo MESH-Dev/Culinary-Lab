@@ -17,7 +17,7 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<?php $loop = new WP_Query( array( 'post_type' => 'restaurants', 'posts_per_page' => -1, 'order' => 'ASC' ) ); ?>
-      <?php while ( $loop->have_posts() ) : $loop->the_post(); 
+      <?php while ( $loop->have_posts() ) : $loop->the_post();
       			//Get user input
       			$site = get_field('website');
       			//Decode it to an url
@@ -48,7 +48,7 @@ get_header(); ?>
 					</div>
 				</div>
 
-      <?php endwhile; // end of the loop. ?>
+      <?php endwhile; wp_reset_postdata(); ?>
 
 		<?php endif; ?>
 
