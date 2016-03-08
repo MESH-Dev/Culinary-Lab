@@ -944,6 +944,7 @@ main {
   min-height: 600px;
   margin-top: 40px;
   margin-bottom: 40px;
+  overflow-y: hidden;
 }
 
 /* line 11, sass/layout/_main.scss */
@@ -1123,14 +1124,16 @@ body.home.page {
   z-index: 10;
   border: 1px solid #ffffff;
   overflow: hidden;
+  width: 100%;
+  position: relative;
 }
-/* line 176, sass/layout/_main.scss */
+/* line 178, sass/layout/_main.scss */
 .case-study-top:hover {
   background-image: none !important;
   border: 1px solid #000000;
 }
 
-/* line 182, sass/layout/_main.scss */
+/* line 184, sass/layout/_main.scss */
 .cs_image {
   position: absolute;
   top: 0;
@@ -1140,41 +1143,52 @@ body.home.page {
   background-size: cover;
   transition: all .2s ease-in-out;
 }
-/* line 191, sass/layout/_main.scss */
+/* line 193, sass/layout/_main.scss */
 .cs_image:hover {
   opacity: 0;
 }
 
-/* line 200, sass/layout/_main.scss */
+/* line 202, sass/layout/_main.scss */
 .case-study-text {
   display: table-cell;
   vertical-align: middle;
-  padding: 125px;
+}
+/* line 207, sass/layout/_main.scss */
+.case-study-text .case-study-text-inner {
+  width: 350px;
+  margin: auto;
+  padding: 20px;
+}
+@media screen and (max-width: 900px) {
+  /* line 207, sass/layout/_main.scss */
+  .case-study-text .case-study-text-inner {
+    width: 100%;
+  }
 }
 
-/* line 207, sass/layout/_main.scss */
+/* line 219, sass/layout/_main.scss */
 .case-study-line {
   text-align: center;
   margin: 0 auto 40px;
   width: 90px;
 }
 
-/* line 213, sass/layout/_main.scss */
+/* line 225, sass/layout/_main.scss */
 ul.single-results {
   display: none;
 }
 
-/* line 218, sass/layout/_main.scss */
+/* line 230, sass/layout/_main.scss */
 .nav_trigger {
   cursor: pointer;
 }
 
-/* line 222, sass/layout/_main.scss */
+/* line 234, sass/layout/_main.scss */
 .nav_trigger.hide {
   display: none;
 }
 
-/* line 226, sass/layout/_main.scss */
+/* line 238, sass/layout/_main.scss */
 .close {
   font-size: 16;
   font-family: "freight-text-pro", Helvetica, Arial, sans-serif;
@@ -1191,13 +1205,13 @@ ul.single-results {
 }
 
 @media only screen and (max-width: 1100px) {
-  /* line 243, sass/layout/_main.scss */
+  /* line 255, sass/layout/_main.scss */
   .results.hide {
     display: none;
     visibility: hidden;
   }
 
-  /* line 248, sass/layout/_main.scss */
+  /* line 260, sass/layout/_main.scss */
   .nav_trigger.hide {
     display: block;
     text-align: right;
@@ -1207,32 +1221,32 @@ ul.single-results {
     z-index: 99999;
   }
 
-  /* line 258, sass/layout/_main.scss */
+  /* line 270, sass/layout/_main.scss */
   .text .container {
     width: 100%;
   }
 
-  /* line 263, sass/layout/_main.scss */
+  /* line 275, sass/layout/_main.scss */
   .main-navigation {
     display: none !important;
   }
 
-  /* line 272, sass/layout/_main.scss */
+  /* line 284, sass/layout/_main.scss */
   .sidr .sidr-inner .close {
     display: block;
   }
 
-  /* line 277, sass/layout/_main.scss */
+  /* line 289, sass/layout/_main.scss */
   main {
     margin-top: 140px;
   }
 
-  /* line 282, sass/layout/_main.scss */
+  /* line 294, sass/layout/_main.scss */
   .text .container {
     width: 100%;
   }
 }
-/* line 290, sass/layout/_main.scss */
+/* line 302, sass/layout/_main.scss */
 .title {
   font-family: "freight-text-pro", Helvetica, Arial, sans-serif;
   letter-spacing: 0.09em;

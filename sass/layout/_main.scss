@@ -4,7 +4,7 @@ main {
   min-height: 600px;
   margin-top: 40px;
   margin-bottom: 40px;
-
+  overflow-y: hidden;
 
 }
 
@@ -172,6 +172,8 @@ body.home.page{
   z-index: 10;
   border:1px solid #ffffff;
   overflow:hidden;
+  width: 100%;
+  position: relative;
 
   &:hover {
     background-image: none !important;
@@ -201,7 +203,17 @@ body.home.page{
   // border-bottom: 1px solid black;
   display: table-cell;
   vertical-align: middle;
-  padding: 125px;
+
+  .case-study-text-inner {
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+
+    @include mq($main-width, "max-width") {
+  		width: 100%;
+  	}
+  }
+
 }
 
 .case-study-line {
