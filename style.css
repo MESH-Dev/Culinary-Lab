@@ -1151,7 +1151,7 @@ ul.single-results {
   font-size: 16;
   font-family: "freight-text-pro", Helvetica, Arial, sans-serif;
   text-align: right;
-  padding-right: 20px;
+  padding-right: 25px;
   padding-top: 25px;
   padding-bottom: 10px;
   display: none;
@@ -1178,52 +1178,50 @@ ul.single-results {
   .nav_trigger.hide {
     display: block;
     text-align: right;
-    padding-top: 10px;
-    padding-right: 10px;
     position: fixed;
-    right: 20px;
+    right: 25px;
     top: 25px;
     z-index: 99999;
   }
 
-  /* line 257, sass/layout/_main.scss */
+  /* line 255, sass/layout/_main.scss */
   .text .container {
     width: 100%;
   }
 
-  /* line 262, sass/layout/_main.scss */
+  /* line 260, sass/layout/_main.scss */
   .main-navigation {
     display: none !important;
   }
 
-  /* line 271, sass/layout/_main.scss */
+  /* line 269, sass/layout/_main.scss */
   .sidr .sidr-inner .close {
     display: block;
   }
 
-  /* line 276, sass/layout/_main.scss */
+  /* line 274, sass/layout/_main.scss */
   main {
     margin-top: 140px;
   }
 
-  /* line 280, sass/layout/_main.scss */
+  /* line 278, sass/layout/_main.scss */
   h1 {
     font-size: 60px;
     line-height: 1.25;
   }
 
-  /* line 286, sass/layout/_main.scss */
+  /* line 284, sass/layout/_main.scss */
   .text .container {
     width: 100%;
   }
 
-  /* line 291, sass/layout/_main.scss */
+  /* line 289, sass/layout/_main.scss */
   h2 {
     font-size: 38px;
     line-height: 1.25;
   }
 }
-/* line 299, sass/layout/_main.scss */
+/* line 297, sass/layout/_main.scss */
 .title {
   font-family: "freight-text-pro", Helvetica, Arial, sans-serif;
   letter-spacing: 0.09em;

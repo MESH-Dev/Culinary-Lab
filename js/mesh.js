@@ -141,7 +141,7 @@ jQuery(document).ready(function($){
       		toggleFilterButtons: false
       	},
         animation: {
-          effects: 'fade'
+          enable: false
         }
       });
   });
