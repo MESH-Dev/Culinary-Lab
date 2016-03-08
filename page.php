@@ -22,7 +22,7 @@
 
 				<div class="six columns">
 
-					<?php echo get_the_post_thumbnail( null, 'full' ); ?>
+					<?php echo get_the_post_thumbnail( null, 'large' ); ?>
 
 				</div>
 			</div>
