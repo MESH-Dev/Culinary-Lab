@@ -722,10 +722,17 @@ h1 {
   text-transform: uppercase;
   color: black;
   font-weight: 500;
-  letter-spacing: -22px;
+  letter-spacing: -0.27em;
+}
+@media screen and (max-width: 900px) {
+  /* line 20, sass/base/_base.scss */
+  h1 {
+    font-size: 45px;
+    line-height: 1.25em;
+  }
 }
 
-/* line 31, sass/base/_base.scss */
+/* line 36, sass/base/_base.scss */
 h2 {
   font-size: 46px;
   line-height: 1.25;
@@ -738,15 +745,15 @@ h2 {
   margin: 33px auto;
 }
 @media screen and (max-width: 900px) {
-  /* line 31, sass/base/_base.scss */
+  /* line 36, sass/base/_base.scss */
   h2 {
     font-size: 30px;
     line-height: 1.4em;
-    letter-spacing: -.15em;
+    text-align: left;
   }
 }
 
-/* line 49, sass/base/_base.scss */
+/* line 54, sass/base/_base.scss */
 h3 {
   font-size: 40px;
   line-height: 46px;
@@ -758,7 +765,7 @@ h3 {
   letter-spacing: -6px;
 }
 
-/* line 60, sass/base/_base.scss */
+/* line 65, sass/base/_base.scss */
 h4 {
   font-size: 26px;
   font-weight: 500;
@@ -769,7 +776,7 @@ h4 {
   margin: 0 -6px 10px;
 }
 
-/* line 70, sass/base/_base.scss */
+/* line 75, sass/base/_base.scss */
 h5 {
   font-family: "proxima-nova", sans-serif;
   font-size: 26px;
@@ -781,7 +788,7 @@ h5 {
   font-weight: 500;
 }
 
-/* line 81, sass/base/_base.scss */
+/* line 86, sass/base/_base.scss */
 h6 {
   font-family: "proxima-nova", sans-serif;
   font-size: 18px;
@@ -792,17 +799,17 @@ h6 {
   letter-spacing: .03em;
 }
 
-/* line 91, sass/base/_base.scss */
+/* line 96, sass/base/_base.scss */
 a {
   color: #4474d1;
   text-decoration: none;
 }
-/* line 95, sass/base/_base.scss */
+/* line 100, sass/base/_base.scss */
 a:hover {
   opacity: 0.7;
 }
 
-/* line 100, sass/base/_base.scss */
+/* line 105, sass/base/_base.scss */
 p {
   font-family: "proxima-nova", sans-serif;
   margin: 0 0 15px;
@@ -811,7 +818,7 @@ p {
   color: black;
 }
 
-/* line 108, sass/base/_base.scss */
+/* line 113, sass/base/_base.scss */
 blockquote {
   font-size: 1.5pxem;
   font-style: italic;
@@ -821,14 +828,14 @@ blockquote {
   border-left: solid 0.33333em palette(grey, xx-light);
 }
 
-/* line 119, sass/base/_base.scss */
+/* line 124, sass/base/_base.scss */
 img {
   margin-bottom: 1.5pxem;
   max-width: 100%;
   height: auto;
 }
 
-/* line 127, sass/base/_base.scss */
+/* line 132, sass/base/_base.scss */
 ul,
 li {
   margin: 0;
@@ -836,7 +843,7 @@ li {
   list-style-type: none;
 }
 
-/* line 136, sass/base/_base.scss */
+/* line 141, sass/base/_base.scss */
 input,
 textarea {
   display: block;
@@ -846,22 +853,22 @@ textarea {
   border: 0;
 }
 
-/* line 145, sass/base/_base.scss */
+/* line 150, sass/base/_base.scss */
 input:focus,
 textarea:focus {
   transition: 1;
 }
 
-/* line 152, sass/base/_base.scss */
+/* line 157, sass/base/_base.scss */
 button {
   outline: 0;
 }
 
-/* line 158, sass/base/_base.scss */
+/* line 163, sass/base/_base.scss */
 footer {
   border-top: 1px solid palette(grey, xx-light);
 }
-/* line 160, sass/base/_base.scss */
+/* line 165, sass/base/_base.scss */
 footer p {
   font-size: 1pxem;
   margin-top: 1.375em;
@@ -1220,18 +1227,12 @@ ul.single-results {
     margin-top: 140px;
   }
 
-  /* line 281, sass/layout/_main.scss */
-  h1 {
-    font-size: 60px;
-    line-height: 1.25;
-  }
-
-  /* line 287, sass/layout/_main.scss */
+  /* line 282, sass/layout/_main.scss */
   .text .container {
     width: 100%;
   }
 }
-/* line 295, sass/layout/_main.scss */
+/* line 290, sass/layout/_main.scss */
 .title {
   font-family: "freight-text-pro", Helvetica, Arial, sans-serif;
   letter-spacing: 0.09em;
