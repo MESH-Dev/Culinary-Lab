@@ -86,5 +86,6 @@
 			</nav>
 
 			<div class="nav_trigger hide"><img src="<?php echo get_template_directory_uri(); ?>/img/nav_trigger.png ?>" ></div>
+			
 
 		</header>
