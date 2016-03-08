@@ -724,7 +724,7 @@ h1 {
   font-weight: 500;
   letter-spacing: -0.27em;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1280px) {
   /* line 21, sass/base/_base.scss */
   h1 {
     font-size: 45px;
@@ -744,7 +744,7 @@ h2 {
   letter-spacing: -.15em;
   margin: 33px auto;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   /* line 37, sass/base/_base.scss */
   h2 {
     font-size: 30px;
@@ -966,7 +966,7 @@ body.home.page {
   position: relative;
   width: 100%;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1280px) {
   /* line 19, sass/layout/_main.scss */
   .landing {
     min-height: calc(100vh - 140px);
@@ -989,7 +989,7 @@ body.home.page {
   /* Safari */
   /* bring your own prefixes */
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1280px) {
   /* line 34, sass/layout/_main.scss */
   .centered {
     top: calc(50% - 140px);
@@ -1187,7 +1187,7 @@ body.home.page {
   margin: auto;
   padding: 20px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1280px) {
   /* line 236, sass/layout/_main.scss */
   .case-study-text .case-study-text-inner {
     width: 100%;

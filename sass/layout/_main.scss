@@ -24,7 +24,7 @@ body.home.page{
   position: relative;
   width: 100%;
 
-  @include mq($main-width, 'max-width') {
+  @include mq($desktop-width, 'max-width') {
     min-height: calc(100vh - 140px);
     min-height: -webkit-calc(100vh - 140px);
     min-height: -moz-calc(100vh - 140px);
@@ -45,7 +45,7 @@ body.home.page{
 
   /* bring your own prefixes */
 
-  @include mq($main-width, 'max-width') {
+  @include mq($desktop-width, 'max-width') {
     top: calc(50% - 140px);
     top: -webkit-calc(50% - 140px);
     top: -moz-calc(50% - 140px);
@@ -238,7 +238,7 @@ body.home.page{
     margin: auto;
     padding: 20px;
 
-    @include mq($main-width, "max-width") {
+    @include mq($desktop-width, "max-width") {
   		width: 100%;
   	}
   }
