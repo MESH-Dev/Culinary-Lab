@@ -19,6 +19,7 @@ body.home.page{
 .landing {
   min-height: calc(100vh - 84px);
   position: relative;
+  width: 100%;
 
   @include mq($main-width, 'max-width') {
     min-height: calc(100vh - 140px);
