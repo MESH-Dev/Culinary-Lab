@@ -1115,31 +1115,32 @@ body.home.page {
 .case-study-text {
   display: table-cell;
   vertical-align: middle;
-  padding: 100px;
+  padding: 125px;
 }
 
 /* line 199, sass/layout/_main.scss */
 .case-study-line {
   text-align: center;
-  margin-bottom: 40px;
+  margin: 0 auto 40px;
+  width: 90px;
 }
 
-/* line 204, sass/layout/_main.scss */
+/* line 205, sass/layout/_main.scss */
 ul.single-results {
   display: none;
 }
 
-/* line 209, sass/layout/_main.scss */
+/* line 210, sass/layout/_main.scss */
 .nav_trigger {
   cursor: pointer;
 }
 
-/* line 213, sass/layout/_main.scss */
+/* line 214, sass/layout/_main.scss */
 .nav_trigger.hide {
   display: none;
 }
 
-/* line 217, sass/layout/_main.scss */
+/* line 218, sass/layout/_main.scss */
 .close {
   font-size: 16;
   font-family: "freight-text-pro", Helvetica, Arial, sans-serif;
@@ -1156,18 +1157,18 @@ ul.single-results {
 }
 
 @media only screen and (max-width: 1100px) {
-  /* line 234, sass/layout/_main.scss */
+  /* line 235, sass/layout/_main.scss */
   .results.hide {
     display: none;
     visibility: hidden;
   }
 
-  /* line 239, sass/layout/_main.scss */
+  /* line 240, sass/layout/_main.scss */
   h2 {
     font-size: 42px;
   }
 
-  /* line 243, sass/layout/_main.scss */
+  /* line 244, sass/layout/_main.scss */
   .nav_trigger.hide {
     display: block;
     text-align: right;
@@ -1179,43 +1180,49 @@ ul.single-results {
     z-index: 99999;
   }
 
-  /* line 255, sass/layout/_main.scss */
+  /* line 256, sass/layout/_main.scss */
   .text .container {
     width: 100%;
   }
 
-  /* line 260, sass/layout/_main.scss */
+  /* line 261, sass/layout/_main.scss */
   .main-navigation {
     display: none !important;
   }
 
-  /* line 269, sass/layout/_main.scss */
+  /* line 270, sass/layout/_main.scss */
   .sidr .sidr-inner .close {
     display: block;
   }
 
-  /* line 274, sass/layout/_main.scss */
+  /* line 275, sass/layout/_main.scss */
   main {
     margin-top: 140px;
   }
 
-  /* line 278, sass/layout/_main.scss */
+  /* line 279, sass/layout/_main.scss */
   h1 {
     font-size: 60px;
     line-height: 1.25;
   }
 
-  /* line 284, sass/layout/_main.scss */
+  /* line 285, sass/layout/_main.scss */
   .text .container {
     width: 100%;
   }
 
-  /* line 289, sass/layout/_main.scss */
+  /* line 290, sass/layout/_main.scss */
   h2 {
     font-size: 38px;
     line-height: 1.25;
   }
 }
+/* line 298, sass/layout/_main.scss */
+.title {
+  font-family: "freight-text-pro", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.09em;
+}
+
 /* line 1, sass/layout/_slider.scss */
 .slick-dots {
   position: absolute;

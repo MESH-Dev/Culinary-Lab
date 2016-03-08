@@ -23,9 +23,9 @@ get_header(); ?>
           <?php if ( have_posts() ) : ?>
 
       			<?php $loop = new WP_Query( array( 'post_type' => 'casestudies', 'posts_per_page' => -1, 'order' => 'ASC' ) ); ?>
-            <?php 
+            <?php
                 $cs_ctr=0;
-                while ( $loop->have_posts() ) : $loop->the_post(); 
+                while ( $loop->have_posts() ) : $loop->the_post();
                 $cs_ctr++;
                 $count = $loop->found_posts;
             ?>
@@ -42,13 +42,13 @@ get_header(); ?>
                 <h5><?php the_title(); ?></h5>
               </div>
 
-              <?php 
+              <?php
               $final = $count-$cs_ctr;
               //var_dump($final);
-              if ($final > 0){ 
+              if ($final > 0){
               ?>
               <div class="case-study-line">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/blue-short-line.png" />
+                <img src="<?php echo get_template_directory_uri(); ?>/img/CaseStudiesStripe.png" />
               </div>
               <?php } ?>
 

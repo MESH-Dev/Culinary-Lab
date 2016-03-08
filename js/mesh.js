@@ -130,9 +130,21 @@ jQuery(document).ready(function($){
 
 
   // Filtering and sorting
-if (ww > 768){
-  $(function(){
-    $('#container').mixItUp();
-});
+  if (ww > 768){
+    $(function(){
+
+      $('#container').mixItUp({
+      	load: {
+      		filter: '.category-1'
+      	},
+      	controls: {
+      		toggleFilterButtons: false
+      	},
+        animation: {
+          effects: 'fade'
+        }
+      });
+  });
+
 }
 });

@@ -193,12 +193,13 @@ body.home.page{
   // border-bottom: 1px solid black;
   display: table-cell;
   vertical-align: middle;
-  padding: 100px;
+  padding: 125px;
 }
 
 .case-study-line {
   text-align: center;
-  margin-bottom:40px;
+  margin: 0 auto 40px;
+  width: 90px;
 }
 
 ul.single-results{
@@ -292,4 +293,9 @@ ul.single-results{
   }
 
 
+}
+
+.title {
+  font-family: $font-family--primary;
+  letter-spacing: 0.09em;
 }
