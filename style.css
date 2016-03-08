@@ -734,17 +734,19 @@ h2 {
   text-align: center;
   color: black;
   font-weight: 500;
-  letter-spacing: -7px;
+  letter-spacing: -.15em;
   margin: 33px auto;
 }
 @media screen and (max-width: 900px) {
   /* line 31, sass/base/_base.scss */
   h2 {
-    font-size: 40px;
+    font-size: 30px;
+    line-height: 1.4em;
+    letter-spacing: -.15em;
   }
 }
 
-/* line 47, sass/base/_base.scss */
+/* line 49, sass/base/_base.scss */
 h3 {
   font-size: 40px;
   line-height: 46px;
@@ -756,7 +758,7 @@ h3 {
   letter-spacing: -6px;
 }
 
-/* line 58, sass/base/_base.scss */
+/* line 60, sass/base/_base.scss */
 h4 {
   font-size: 26px;
   font-weight: 500;
@@ -767,7 +769,7 @@ h4 {
   margin: 0 -6px 10px;
 }
 
-/* line 68, sass/base/_base.scss */
+/* line 70, sass/base/_base.scss */
 h5 {
   font-family: "proxima-nova", sans-serif;
   font-size: 26px;
@@ -779,7 +781,7 @@ h5 {
   font-weight: 500;
 }
 
-/* line 79, sass/base/_base.scss */
+/* line 81, sass/base/_base.scss */
 h6 {
   font-family: "proxima-nova", sans-serif;
   font-size: 18px;
@@ -790,17 +792,17 @@ h6 {
   letter-spacing: .03em;
 }
 
-/* line 89, sass/base/_base.scss */
+/* line 91, sass/base/_base.scss */
 a {
   color: #4474d1;
   text-decoration: none;
 }
-/* line 93, sass/base/_base.scss */
+/* line 95, sass/base/_base.scss */
 a:hover {
   opacity: 0.7;
 }
 
-/* line 98, sass/base/_base.scss */
+/* line 100, sass/base/_base.scss */
 p {
   font-family: "proxima-nova", sans-serif;
   margin: 0 0 15px;
@@ -809,7 +811,7 @@ p {
   color: black;
 }
 
-/* line 106, sass/base/_base.scss */
+/* line 108, sass/base/_base.scss */
 blockquote {
   font-size: 1.5pxem;
   font-style: italic;
@@ -819,14 +821,14 @@ blockquote {
   border-left: solid 0.33333em palette(grey, xx-light);
 }
 
-/* line 117, sass/base/_base.scss */
+/* line 119, sass/base/_base.scss */
 img {
   margin-bottom: 1.5pxem;
   max-width: 100%;
   height: auto;
 }
 
-/* line 125, sass/base/_base.scss */
+/* line 127, sass/base/_base.scss */
 ul,
 li {
   margin: 0;
@@ -834,7 +836,7 @@ li {
   list-style-type: none;
 }
 
-/* line 134, sass/base/_base.scss */
+/* line 136, sass/base/_base.scss */
 input,
 textarea {
   display: block;
@@ -844,22 +846,22 @@ textarea {
   border: 0;
 }
 
-/* line 143, sass/base/_base.scss */
+/* line 145, sass/base/_base.scss */
 input:focus,
 textarea:focus {
   transition: 1;
 }
 
-/* line 150, sass/base/_base.scss */
+/* line 152, sass/base/_base.scss */
 button {
   outline: 0;
 }
 
-/* line 156, sass/base/_base.scss */
+/* line 158, sass/base/_base.scss */
 footer {
   border-top: 1px solid palette(grey, xx-light);
 }
-/* line 158, sass/base/_base.scss */
+/* line 160, sass/base/_base.scss */
 footer p {
   font-size: 1pxem;
   margin-top: 1.375em;
@@ -1176,11 +1178,6 @@ ul.single-results {
   }
 
   /* line 241, sass/layout/_main.scss */
-  h2 {
-    font-size: 42px;
-  }
-
-  /* line 245, sass/layout/_main.scss */
   .nav_trigger.hide {
     display: block;
     text-align: right;
@@ -1190,44 +1187,38 @@ ul.single-results {
     z-index: 99999;
   }
 
-  /* line 255, sass/layout/_main.scss */
+  /* line 251, sass/layout/_main.scss */
   .text .container {
     width: 100%;
   }
 
-  /* line 260, sass/layout/_main.scss */
+  /* line 256, sass/layout/_main.scss */
   .main-navigation {
     display: none !important;
   }
 
-  /* line 269, sass/layout/_main.scss */
+  /* line 265, sass/layout/_main.scss */
   .sidr .sidr-inner .close {
     display: block;
   }
 
-  /* line 274, sass/layout/_main.scss */
+  /* line 270, sass/layout/_main.scss */
   main {
     margin-top: 140px;
   }
 
-  /* line 278, sass/layout/_main.scss */
+  /* line 274, sass/layout/_main.scss */
   h1 {
     font-size: 60px;
     line-height: 1.25;
   }
 
-  /* line 284, sass/layout/_main.scss */
+  /* line 280, sass/layout/_main.scss */
   .text .container {
     width: 100%;
   }
-
-  /* line 289, sass/layout/_main.scss */
-  h2 {
-    font-size: 38px;
-    line-height: 1.25;
-  }
 }
-/* line 297, sass/layout/_main.scss */
+/* line 288, sass/layout/_main.scss */
 .title {
   font-family: "freight-text-pro", Helvetica, Arial, sans-serif;
   letter-spacing: 0.09em;
