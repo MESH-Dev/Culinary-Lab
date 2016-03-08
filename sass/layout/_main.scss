@@ -141,6 +141,11 @@ body.home.page{
 
 .property-item {
   padding-bottom: 50px;
+
+  &:last-of-type {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
 }
 
 #container .mix{
