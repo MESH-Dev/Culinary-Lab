@@ -37,10 +37,12 @@ body.home.page{
   top: -webkit-calc(50% - 84px);
   top: -moz-calc(50% - 84px);
 
-  left: calc(50% - 85px);
-  left: -webkit-calc(50% - 85px);
-  left: -moz-calc(50% - 85px);
-  width: 170px;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); /* IE 9 */
+   	-webkit-transform: translate(-50%, -50%); /* Safari */
+
   /* bring your own prefixes */
 
   @include mq($main-width, 'max-width') {
