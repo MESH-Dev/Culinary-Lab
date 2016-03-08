@@ -17,6 +17,13 @@
 		padding-left: 0;
 		text-align: center;
 
+		&.sub-menu {
+			margin: 10px 20px;
+			width: 150px;
+			height: 100px;
+		}
+
+
 		ul {
 			// box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 			float: left;
@@ -48,6 +55,7 @@
 					width:auto;
 					padding: 3px;
 					display:block;
+			    line-height: 16px;
 				}
 				&:hover > ul,
 				&.focus > ul {
@@ -81,7 +89,7 @@
 
 
 	li:nth-child(2) ul{
-		margin-left: 20px;
+		margin-left: 19px;
 
 		> li {
 
@@ -106,7 +114,6 @@
 		width: 140px;
 
 		&.current-menu-item > a{
-
 
 
 		}

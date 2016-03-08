@@ -55,7 +55,7 @@
 
 			<?php if (!is_front_page()) { ?>
 				<div class="logo">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/img/inner-logo.png ?>" ></a>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/img/LogoBleed.png"></a>
 				</div>
 			<?php } ?>
 
@@ -86,6 +86,6 @@
 			</nav>
 
 			<div class="nav_trigger hide"><img src="<?php echo get_template_directory_uri(); ?>/img/nav_trigger.png ?>" ></div>
-			
+
 
 		</header>

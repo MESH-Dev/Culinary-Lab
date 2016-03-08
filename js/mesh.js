@@ -10,8 +10,14 @@ jQuery(document).ready(function($){
 
   //Let's do something awesome!
 
+  $('.main-navigation ul li ul li a').click(function() {
+
+    console.log($(this).parent().parent().hide());
+  })
+
   $(function() {
     $('a[href*="#"]:not([href="#"])').click(function() {
+
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -36,7 +42,7 @@ jQuery(document).ready(function($){
   function fix_body_height(){
     $('.post-type-archive-press').css({'height': bh-100});
   }
-  
+
   $(window).load(fix_body_height);
   $(window).resize(fix_body_height);
 
@@ -66,7 +72,7 @@ jQuery(document).ready(function($){
     $(this).find('a').next().stop( true, true ).slideUp('200');
   })
 
- 
+
   // var s = skrollr.init();
   // var s = skrollr.init({
   //   edgeStrategy: 'set',
@@ -77,7 +83,7 @@ jQuery(document).ready(function($){
   //     }
   //   }
   // });
-  
+
  // var dh = $(document).height();
  //  var blh = $('.blue-rectangle').height();
 
