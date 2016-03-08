@@ -42,7 +42,7 @@
 				width: 160px;
 				position: relative;
 
-				
+
 
 				a{
 					width:auto;
@@ -54,7 +54,7 @@
 					left: 100%;
 				}
 			}
-			
+
 
 			a {
 				width: 200px;
@@ -74,13 +74,23 @@
 		li.focus > ul {
 			left: auto;
 		}
- 
+
 
 	}
 
- 
+
+
 	li:nth-child(2) ul{
 		margin-left: 20px;
+
+		> li {
+
+			&:nth-child(2) {
+				width: 130px;
+			}
+
+		}
+
 	}
 	li:nth-child(3) ul{
 		margin-left: 45px;
@@ -96,9 +106,9 @@
 		width: 140px;
 
 		&.current-menu-item > a{
- 			
-				
-		 
+
+
+
 		}
 
 		&:hover > a,
@@ -163,9 +173,11 @@
 .sidr{
 	background:#e4e4e4;
 
+
 	.sub-menu{
 		display:none;
 	}
+
 	ul{
 		margin-top:20px;
 		margin-left:20px;

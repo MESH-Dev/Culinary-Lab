@@ -564,12 +564,7 @@ body.home.page {
   color: black;
 }
 
-/* line 52, sass/layout/_main.scss */
-.sliding img {
-  width: 100%;
-}
-
-/* line 61, sass/layout/_main.scss */
+/* line 56, sass/layout/_main.scss */
 .contacting .contacting-button {
   padding: 15px 20px;
   font-size: 16px;
@@ -581,13 +576,13 @@ body.home.page {
   transition: all .3s ease-in-out;
   letter-spacing: .09em;
 }
-/* line 72, sass/layout/_main.scss */
+/* line 67, sass/layout/_main.scss */
 .contacting .contacting-button:hover {
   background: black;
   color: white;
 }
 
-/* line 79, sass/layout/_main.scss */
+/* line 74, sass/layout/_main.scss */
 .blue-rectangle {
   position: absolute;
   height: 0;
@@ -596,22 +591,22 @@ body.home.page {
   z-index: -1;
 }
 
-/* line 87, sass/layout/_main.scss */
+/* line 82, sass/layout/_main.scss */
 .page-content {
   margin-bottom: 30px;
 }
 
-/* line 91, sass/layout/_main.scss */
+/* line 86, sass/layout/_main.scss */
 .text-property {
   text-align: center;
 }
 
-/* line 96, sass/layout/_main.scss */
+/* line 91, sass/layout/_main.scss */
 .text .container {
   width: 90%;
 }
 
-/* line 101, sass/layout/_main.scss */
+/* line 96, sass/layout/_main.scss */
 .restaurant-address, .restaurant-website {
   display: block;
   font-family: "proxima-nova", sans-serif;
@@ -621,55 +616,55 @@ body.home.page {
   margin: 0 0 5px;
 }
 
-/* line 110, sass/layout/_main.scss */
+/* line 105, sass/layout/_main.scss */
 .restaurant-website {
   margin: 0 0 10px;
 }
 
-/* line 114, sass/layout/_main.scss */
+/* line 109, sass/layout/_main.scss */
 .property {
   padding-bottom: 75px;
 }
-/* line 117, sass/layout/_main.scss */
+/* line 112, sass/layout/_main.scss */
 .property .content {
   width: 95%;
 }
-/* line 121, sass/layout/_main.scss */
+/* line 116, sass/layout/_main.scss */
 .property p {
   padding-bottom: 20px;
 }
 
-/* line 126, sass/layout/_main.scss */
+/* line 121, sass/layout/_main.scss */
 .press {
   margin: 50px 0;
 }
 
-/* line 130, sass/layout/_main.scss */
+/* line 125, sass/layout/_main.scss */
 .property-item {
   padding-bottom: 50px;
 }
 
-/* line 134, sass/layout/_main.scss */
+/* line 129, sass/layout/_main.scss */
 #container .mix {
   display: none;
   margin-bottom: 20px;
   width: 100%;
 }
 
-/* line 140, sass/layout/_main.scss */
+/* line 135, sass/layout/_main.scss */
 .filter {
   cursor: pointer;
 }
-/* line 143, sass/layout/_main.scss */
+/* line 138, sass/layout/_main.scss */
 .filter.active h3 {
   color: #4474d1;
 }
-/* line 148, sass/layout/_main.scss */
+/* line 143, sass/layout/_main.scss */
 .filter h3:hover {
   color: #4474d1;
 }
 
-/* line 154, sass/layout/_main.scss */
+/* line 149, sass/layout/_main.scss */
 .case-study-top {
   text-align: center;
   display: table;
@@ -680,13 +675,13 @@ body.home.page {
   border: 1px solid #ffffff;
   overflow: hidden;
 }
-/* line 164, sass/layout/_main.scss */
+/* line 159, sass/layout/_main.scss */
 .case-study-top:hover {
   background-image: none !important;
   border: 1px solid #000000;
 }
 
-/* line 170, sass/layout/_main.scss */
+/* line 165, sass/layout/_main.scss */
 .cs_image {
   position: absolute;
   top: 0;
@@ -696,110 +691,112 @@ body.home.page {
   background-size: cover;
   transition: all .2s ease-in-out;
 }
-/* line 179, sass/layout/_main.scss */
+/* line 174, sass/layout/_main.scss */
 .cs_image:hover {
   opacity: 0;
 }
 
-/* line 188, sass/layout/_main.scss */
+/* line 183, sass/layout/_main.scss */
 .case-study-text {
   display: table-cell;
   vertical-align: middle;
   padding: 100px;
 }
 
-/* line 195, sass/layout/_main.scss */
+/* line 190, sass/layout/_main.scss */
 .case-study-line {
   text-align: center;
   margin-bottom: 40px;
 }
 
-/* line 200, sass/layout/_main.scss */
+/* line 195, sass/layout/_main.scss */
 ul.single-results {
   display: none;
 }
 
-/* line 205, sass/layout/_main.scss */
+/* line 200, sass/layout/_main.scss */
 .nav_trigger {
   cursor: pointer;
 }
 
-/* line 209, sass/layout/_main.scss */
+/* line 204, sass/layout/_main.scss */
 .nav_trigger.hide {
   display: none;
 }
 
-/* line 213, sass/layout/_main.scss */
+/* line 208, sass/layout/_main.scss */
 .close {
   font-size: 16;
   font-family: "freight-text-pro", Helvetica, Arial, sans-serif;
   text-align: right;
+  padding-right: 20px;
+  padding-top: 25px;
+  padding-bottom: 10px;
   display: none;
   text-transform: uppercase;
   font-size: 16px;
   font-family: "proxima-nova", sans-serif;
   font-weight: 600;
   cursor: pointer;
-  position: absolute;
-  top: 25px;
-  right: 20px;
 }
 
 @media only screen and (max-width: 845px) {
-  /* line 234, sass/layout/_main.scss */
+  /* line 225, sass/layout/_main.scss */
   .results.hide {
     display: none;
     visibility: hidden;
   }
 
-  /* line 239, sass/layout/_main.scss */
+  /* line 230, sass/layout/_main.scss */
   h2 {
     font-size: 42px;
   }
 
-  /* line 243, sass/layout/_main.scss */
+  /* line 234, sass/layout/_main.scss */
   .nav_trigger.hide {
     display: block;
     text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
     position: fixed;
     right: 20px;
     top: 25px;
     z-index: 99999;
   }
 
-  /* line 255, sass/layout/_main.scss */
+  /* line 246, sass/layout/_main.scss */
   .text .container {
     width: 100%;
   }
 
-  /* line 260, sass/layout/_main.scss */
+  /* line 251, sass/layout/_main.scss */
   .main-navigation {
     display: none !important;
   }
 
-  /* line 269, sass/layout/_main.scss */
+  /* line 260, sass/layout/_main.scss */
   .sidr .sidr-inner .close {
     display: block;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 277, sass/layout/_main.scss */
+  /* line 268, sass/layout/_main.scss */
   main {
     margin-top: 140px;
   }
 
-  /* line 280, sass/layout/_main.scss */
+  /* line 271, sass/layout/_main.scss */
   h1 {
     font-size: 60px;
     line-height: 1.25;
   }
 
-  /* line 286, sass/layout/_main.scss */
+  /* line 277, sass/layout/_main.scss */
   .text .container {
     width: 100%;
   }
 
-  /* line 291, sass/layout/_main.scss */
+  /* line 282, sass/layout/_main.scss */
   h2 {
     font-size: 38px;
     line-height: 1.25;
@@ -927,55 +924,62 @@ header {
 .main-navigation ul ul ul {
   left: -999em;
   top: 0;
+  width: 160px;
+  left: auto;
+  padding-top: 8px;
 }
-/* line 34, sass/modules/_menus.scss */
+/* line 37, sass/modules/_menus.scss */
 .main-navigation ul ul li {
   display: inline;
   text-align: left;
+  text-transform: capitalize;
+  width: 160px;
+  position: relative;
 }
-/* line 39, sass/modules/_menus.scss */
+/* line 47, sass/modules/_menus.scss */
 .main-navigation ul ul li a {
   width: auto;
   padding: 3px;
   display: block;
 }
-/* line 44, sass/modules/_menus.scss */
+/* line 52, sass/modules/_menus.scss */
 .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
   left: 100%;
 }
-/* line 50, sass/modules/_menus.scss */
+/* line 59, sass/modules/_menus.scss */
 .main-navigation ul ul a {
   width: 200px;
   font-weight: 400;
 }
-/* line 64, sass/modules/_menus.scss */
+/* line 73, sass/modules/_menus.scss */
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
   left: auto;
 }
-/* line 72, sass/modules/_menus.scss */
-.main-navigation ul > li:nth-child(2) {
-  width: 130px;
-}
-/* line 80, sass/modules/_menus.scss */
-.main-navigation ul > li:nth-child(4) {
-  width: 128px;
+/* line 83, sass/modules/_menus.scss */
+.main-navigation li:nth-child(2) ul {
+  margin-left: 20px;
 }
 /* line 88, sass/modules/_menus.scss */
-.main-navigation ul > li:nth-child(3) {
-  width: 73px;
+.main-navigation li:nth-child(2) ul > li:nth-child(2) {
+  width: 130px;
 }
-/* line 97, sass/modules/_menus.scss */
+/* line 95, sass/modules/_menus.scss */
+.main-navigation li:nth-child(3) ul {
+  margin-left: 45px;
+}
+/* line 98, sass/modules/_menus.scss */
+.main-navigation li:nth-child(4) ul {
+  margin-left: 20px;
+}
+/* line 102, sass/modules/_menus.scss */
 .main-navigation li {
   display: inline-block;
   position: relative;
-  padding: 15px;
+  padding: 0px;
+  width: 140px;
 }
-/* line 103, sass/modules/_menus.scss */
-.main-navigation li.current-menu-item a {
-  color: #4474d1;
-}
-/* line 112, sass/modules/_menus.scss */
+/* line 118, sass/modules/_menus.scss */
 .main-navigation a {
   display: block;
   text-decoration: none;
@@ -983,44 +987,50 @@ header {
   font-weight: 400;
   letter-spacing: 0.05em;
 }
-/* line 119, sass/modules/_menus.scss */
+/* line 125, sass/modules/_menus.scss */
 .main-navigation a:hover {
+  color: #4474d1;
+}
+/* line 130, sass/modules/_menus.scss */
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a {
   color: #4474d1;
 }
 
 /* Small menu. */
-/* line 131, sass/modules/_menus.scss */
+/* line 138, sass/modules/_menus.scss */
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
 }
 
 @media screen and (min-width: 37.5em) {
-  /* line 137, sass/modules/_menus.scss */
+  /* line 144, sass/modules/_menus.scss */
   .menu-toggle {
     display: none;
   }
 
-  /* line 140, sass/modules/_menus.scss */
+  /* line 147, sass/modules/_menus.scss */
   .main-navigation ul {
     display: block;
   }
 }
-/* line 149, sass/modules/_menus.scss */
+/* line 156, sass/modules/_menus.scss */
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
 .post-navigation {
   margin: 0 0 1.5em;
   overflow: hidden;
 }
-/* line 154, sass/modules/_menus.scss */
+/* line 161, sass/modules/_menus.scss */
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
   float: left;
   width: 50%;
 }
-/* line 159, sass/modules/_menus.scss */
+/* line 166, sass/modules/_menus.scss */
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
@@ -1029,33 +1039,35 @@ header {
   width: 50%;
 }
 
-/* line 166, sass/modules/_menus.scss */
+/* line 173, sass/modules/_menus.scss */
 .sidr {
   background: #e4e4e4;
 }
-/* line 169, sass/modules/_menus.scss */
+/* line 177, sass/modules/_menus.scss */
 .sidr .sub-menu {
   display: none;
 }
-/* line 172, sass/modules/_menus.scss */
+/* line 181, sass/modules/_menus.scss */
 .sidr ul {
   margin-top: 20px;
   margin-left: 20px;
 }
-/* line 177, sass/modules/_menus.scss */
+/* line 186, sass/modules/_menus.scss */
 .sidr ul li a {
   color: black;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 22px;
+  line-height: 50px;
   font-family: "proxima-nova", sans-serif;
   font-weight: 400;
+  letter-spacing: 0.05em;
 }
-/* line 184, sass/modules/_menus.scss */
+/* line 195, sass/modules/_menus.scss */
 .sidr ul li a:hover, .sidr ul li a:focus, .sidr ul li a:active {
   color: #4474d1;
   opacity: 1;
 }
-/* line 193, sass/modules/_menus.scss */
+/* line 204, sass/modules/_menus.scss */
 .sidr ul ul {
   margin-left: 20px;
   margin-top: 10px;
