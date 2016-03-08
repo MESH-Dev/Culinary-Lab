@@ -6,7 +6,9 @@
 	margin-top: 25px;
 	text-transform: uppercase;
 	font-size: 13px;
+	letter-spacing:.05em;
 	font-family: $font-family--secondary;
+	font-weight:400;
 
 	ul {
 		display: none;
@@ -19,7 +21,7 @@
 			// box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 			float: left;
 			// position: absolute;
-			display:none;
+			 display:none;
 			top: 1.5em;
 			left: -999em;
 			z-index: 99999;
@@ -27,11 +29,20 @@
 			ul {
 				left: -999em;
 				top: 0;
+				width: 160px;
+				left: auto;
+				padding-top: 8px;
 			}
 
 			li {
 
 				display:inline;
+				text-align: left;
+				text-transform: capitalize;
+				width: 160px;
+				position: relative;
+
+				
 
 				a{
 					width:auto;
@@ -43,9 +54,11 @@
 					left: 100%;
 				}
 			}
+			
 
 			a {
 				width: 200px;
+				font-weight:400;
 			}
 
 			:hover > a,
@@ -61,26 +74,31 @@
 		li.focus > ul {
 			left: auto;
 		}
-
-
-		> li {
-			
-			&:nth-child(2) {
-				width: 165px;
-			}
-
-		}
+ 
 
 	}
+
+ 
+	li:nth-child(2) ul{
+		margin-left: 20px;
+	}
+	li:nth-child(3) ul{
+		margin-left: 45px;
+	}
+	li:nth-child(4) ul{
+		margin-left: 20px;
+	}
+
 	li {
 		display: inline-block;
 		position: relative;
-		padding: 15px;
+		padding:  0px;
+		width: 140px;
 
-		&.current-menu-item {
-			a {
-				color: #4474d1;
-			}
+		&.current-menu-item > a{
+ 			
+				
+		 
 		}
 
 		&:hover > a,
@@ -91,7 +109,7 @@
 		display: block;
 		text-decoration: none;
 		color: black;
-		font-weight: 700;
+		font-weight: 400;
 		letter-spacing: 0.05em;
 
 		&:hover{
@@ -102,6 +120,7 @@
 	.current_page_item > a,
 	.current-menu-item > a,
 	.current_page_ancestor > a {
+		color: #4474d1;
 	}
 }
 
@@ -142,6 +161,11 @@
 }
 
 .sidr{
+	background:#e4e4e4;
+
+	.sub-menu{
+		display:none;
+	}
 	ul{
 		margin-top:20px;
 		margin-left:20px;
@@ -150,9 +174,11 @@
 			a{
 				color:black;
 				text-transform: uppercase;
-			    font-size: 13px;
+			    font-size: 22px;
+			    line-height: 50px;
 			    font-family: "proxima-nova", sans-serif;
-			    font-weight:600;
+			    font-weight:400;
+			    letter-spacing: 0.05em;
 
 			    &:hover,
 			    &:focus,

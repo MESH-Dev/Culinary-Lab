@@ -15,7 +15,7 @@ get_header(); ?>
 
   	<div class="container">
   		<div class="row">
-  			<div class="six columns">
+  			<div class="four columns">
 
           <?php if ( have_posts() ) : ?>
 
@@ -53,7 +53,7 @@ get_header(); ?>
       		<?php endif; ?>
 
   			</div>
-        <div class="six columns results hide">
+        <div class="six columns offset-by-two results hide">
 
           <div id="container">
             <?php if ( have_posts() ) : ?>

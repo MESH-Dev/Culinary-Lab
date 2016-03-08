@@ -48,12 +48,13 @@ get_header(); ?>
 
               // display a sub field value
               $image = get_sub_field('slider_image');
+              $imageURL = $image['sizes']['full-size'];
 
               if( !empty($image) ) {
               	$thumb = $image['url'];
               }
 
-              echo '<div><img src="' . $thumb . '" /></div>';
+              echo '<div><img src="' . $imageURL . '" /></div>';
 
           endwhile;
 
@@ -73,13 +74,13 @@ get_header(); ?>
 
     <div class="container">
       <div class="four columns offset-by-four">
-        <a href=""><div class="contacting-button">More About Us</div></a>
+        <a href="<?php echo esc_url( home_url( '/about' ) ); ?>"><div class="contacting-button">More About Us</div></a>
       </div>
     </div>
 
   </div>
 
-    <div class="blue-rectangle skrollable skrollable-between" data-0="top:80%;" data-end="top:-100%">
+    <div id="skrollr-body" class="blue-rectangle skrollable skrollable-between" data-0="top[quadratic]:80%;" data-end="top[quadratic]:-100%">
       <!-- <div class="parallax-container">
       <div class="parallax"> -->
         <!-- <div class="skrollable skrollable-between" data-0="top:0%;" data-end="top:100%;" > -->

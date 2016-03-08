@@ -60,10 +60,10 @@ jQuery(document).ready(function($){
 
     var _this = $(this);
 
-    $(this).find('a').next().slideDown('200');
+    $(this).find('a').next().stop( true, true ).slideDown('200');
     //$('.main-navigation ul li').not($(this)).find('ul.sub-menu').slideUp('200');
   },function(){
-    $(this).find('a').next().slideUp('200');
+    $(this).find('a').next().stop( true, true ).slideUp('200');
   })
 
  
@@ -87,6 +87,8 @@ jQuery(document).ready(function($){
 
   $('.nav_trigger').sidr({
       name: 'sidr-main',
+      side: 'right',
+      displace: false,
       source: '.main-navigation',
       renaming: false,
     });
