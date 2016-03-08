@@ -5,9 +5,7 @@ main {
   margin-top: 40px;
   margin-bottom: 40px;
 
-  @include mq($tablet-width, 'max-width') {
 
-  }
 }
 
 .page-template-frontpage {
@@ -19,16 +17,24 @@ body.home.page{
 }
 
 .landing {
-  min-height: calc(100vh - 74px);
+  min-height: calc(100vh - 84px);
   position: relative;
+
+  @include mq($main-width, 'max-width') {
+    min-height: calc(100vh - 140px);
+  }
 }
 
 .centered {
   position: absolute;
-  top: 50%;
+  top: calc(50% - 84px);
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
+
+  @include mq($main-width, 'max-width') {
+    top: calc(50% - 140px);
+  }
 }
 
 .more {
@@ -123,8 +129,8 @@ body.home.page{
     width:95%;
   }
 
-  p{
-    padding-bottom:20px;
+  &:last-of-type {
+    padding-bottom: 0px;
   }
 }
 
