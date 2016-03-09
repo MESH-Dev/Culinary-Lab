@@ -165,6 +165,7 @@ jQuery(document).ready(function($){
         $(this).attr('target','_blank');
       }
      }
+   });
 
 
 
