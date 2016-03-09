@@ -123,10 +123,49 @@ jQuery(document).ready(function($){
 
   });
 
+  $('.sidr #menu-item-39 a').click(function(e) {
+    e.preventDefault();
+
+    $(this).parent().find('.sub-menu').slideDown();
+  });
+  $('.sidr #menu-item-39 a .sidr #menu-item-67 a').click(function(e) {
+    e.preventDefault();
+    //do other stuff when a click happens
+    $(this).find(".sub-menu").slideDown();
+  });
 
   $('.sidr menu-item-39').click(function() {
-
+    $(this).find(".sub-menu").slideDown();
   });
+
+  // New tabs
+
+  /* ==========
+     Variables
+   ========== */
+   var url = location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '');
+
+  /* ==========
+      Utilities
+    ========== */
+   function beginsWith(needle, haystack){
+     return (haystack.substr(0, needle.length) == needle);
+   };
+
+
+  /* ==========
+     Anchors open in new tab/window
+   ========== */
+   $('a').each(function(){
+
+     if(typeof $(this).attr('href') != "undefined") {
+      var test = beginsWith( url, $(this).attr('href') );
+      //if it's an external link then open in a new tab
+      if( test == false && $(this).attr('href').indexOf('#') == -1){
+        $(this).attr('target','_blank');
+      }
+     }
+
 
 
   // Filtering and sorting

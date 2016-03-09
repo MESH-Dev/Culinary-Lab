@@ -333,3 +333,7 @@ ul.single-results{
   font-family: $font-family--primary;
   letter-spacing: 0.09em;
 }
+
+.inactive {
+  pointer-events: none;
+}
