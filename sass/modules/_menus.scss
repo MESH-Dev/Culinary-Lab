@@ -177,7 +177,8 @@
 
 		li {
 			a {
-				font-size: 42px;
+				font-size: 18px;
+				line-height: 40px;
 				text-transform: capitalize;
 				font-weight: 500;
 			}
@@ -208,8 +209,8 @@
 		}
 
 		ul{
-			margin-left:20px;
-			margin-top:10px;
+			margin-left:0;
+			margin-top:0;
 		}
 	}
 }
