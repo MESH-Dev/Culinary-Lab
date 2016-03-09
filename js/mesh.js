@@ -142,16 +142,14 @@ jQuery(document).ready(function($){
       $(this).parent().find('.sub-menu').slideToggle();
       $('.sidr #menu-item-67 a').removeAttr('disabled');
     }
-    $(this).parent().find(".sub-menu").slideToggle();
   });
 
-  $('.sidr menu-item-17').click(function() {
+  $('.sidr menu-item-17 a').click(function() {
     if($(".sidr #menu-item-17 a").attr("disabled") == "disabled") {
       e.preventDefault();
       $(this).parent().find('.sub-menu').slideToggle();
       $('.sidr #menu-item-17 a').removeAttr('disabled');
     }
-    $(this).parent().find(".sub-menu").slideToggle();
   });
 
   // New tabs
