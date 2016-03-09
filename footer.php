@@ -22,7 +22,7 @@
 
 var wid = window.innerWidth;
 
-if (wid > 1100)
+if (wid > 1280)
 {
 	var s = skrollr.init();
 }
