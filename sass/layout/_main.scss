@@ -82,8 +82,16 @@ body.home.page{
   }
 }
 
-.sliding {
+.static {
+  @include mq($tablet-width, 'min-width') {
+    display: none;
+  }
+}
 
+.sliding {
+  @include mq($tablet-width, 'max-width') {
+    display: none;
+  }
 }
 
 .contacting {
