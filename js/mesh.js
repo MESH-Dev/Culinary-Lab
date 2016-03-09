@@ -144,7 +144,7 @@ jQuery(document).ready(function($){
     }
   });
 
-  $('.sidr #menu-item-17 a').click(function() {
+  $('.sidr #menu-item-17 a').click(function(e) {
     if($(".sidr #menu-item-17 a").attr("disabled") == "disabled") {
       e.preventDefault();
       $(this).parent().find('.sub-menu').slideToggle();
