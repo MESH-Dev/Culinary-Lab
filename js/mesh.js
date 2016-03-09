@@ -107,8 +107,6 @@ jQuery(document).ready(function($){
 
   $('.menu-item-39 ul.sub-menu li').each(function(){
 
-
-
     var type = window.location.hash.substr(1);
     var url = $(this).find('a').attr('href');
     var path = window.location.href;
@@ -123,10 +121,12 @@ jQuery(document).ready(function($){
       $(this).removeClass('current-menu-item');
     }
 
-
   });
 
 
+  $('.sidr menu-item-39').click(function() {
+
+  });
 
 
   // Filtering and sorting

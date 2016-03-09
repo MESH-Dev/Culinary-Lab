@@ -773,7 +773,7 @@ h4 {
   text-transform: uppercase;
   color: black;
   letter-spacing: -0.13em;
-  margin: 0 -6px 10px;
+  margin: 0 -6px 14px;
   padding-left: 4px;
 }
 
@@ -786,7 +786,7 @@ h5 {
   text-transform: uppercase;
   color: black;
   letter-spacing: .03em;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* line 88, sass/base/_base.scss */
@@ -798,19 +798,20 @@ h6 {
   color: black;
   margin: 0 0 5px;
   letter-spacing: .03em;
+  font-weight: 500;
 }
 
-/* line 98, sass/base/_base.scss */
+/* line 99, sass/base/_base.scss */
 a {
   color: #4474d1;
   text-decoration: none;
 }
-/* line 102, sass/base/_base.scss */
+/* line 103, sass/base/_base.scss */
 a:hover {
   opacity: 0.7;
 }
 
-/* line 107, sass/base/_base.scss */
+/* line 108, sass/base/_base.scss */
 p {
   font-family: "proxima-nova", sans-serif;
   margin: 0 0 15px;
@@ -819,7 +820,7 @@ p {
   color: black;
 }
 
-/* line 115, sass/base/_base.scss */
+/* line 116, sass/base/_base.scss */
 blockquote {
   font-size: 1.5pxem;
   font-style: italic;
@@ -829,14 +830,14 @@ blockquote {
   border-left: solid 0.33333em palette(grey, xx-light);
 }
 
-/* line 126, sass/base/_base.scss */
+/* line 127, sass/base/_base.scss */
 img {
   margin-bottom: 1.5pxem;
   max-width: 100%;
   height: auto;
 }
 
-/* line 134, sass/base/_base.scss */
+/* line 135, sass/base/_base.scss */
 ul,
 li {
   margin: 0;
@@ -844,7 +845,7 @@ li {
   list-style-type: none;
 }
 
-/* line 143, sass/base/_base.scss */
+/* line 144, sass/base/_base.scss */
 input,
 textarea {
   display: block;
@@ -854,22 +855,22 @@ textarea {
   border: 0;
 }
 
-/* line 152, sass/base/_base.scss */
+/* line 153, sass/base/_base.scss */
 input:focus,
 textarea:focus {
   transition: 1;
 }
 
-/* line 159, sass/base/_base.scss */
+/* line 160, sass/base/_base.scss */
 button {
   outline: 0;
 }
 
-/* line 165, sass/base/_base.scss */
+/* line 166, sass/base/_base.scss */
 footer {
   border-top: 1px solid palette(grey, xx-light);
 }
-/* line 167, sass/base/_base.scss */
+/* line 168, sass/base/_base.scss */
 footer p {
   font-size: 1pxem;
   margin-top: 1.375em;
@@ -1091,7 +1092,7 @@ body.home.page {
 
 /* line 146, sass/layout/_main.scss */
 .restaurant-website {
-  margin: 0 0 10px;
+  margin: 0 10px 20px 0;
 }
 
 /* line 150, sass/layout/_main.scss */
