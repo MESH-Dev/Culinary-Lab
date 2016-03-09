@@ -34,6 +34,20 @@ get_header(); ?>
     </div>
   </div>
 
+  <div class="static">
+
+    <?php
+
+      // display a sub field value
+      $image = get_field('static_image');
+      $imageURL = $image['sizes']['full-size'];
+
+      echo '<img src="' . $imageURL . '" />';
+
+    ?>
+
+  </div>
+
   <div class="sliding">
 
     <div class="slider">

@@ -237,11 +237,16 @@ body.home.page{
   .case-study-text-inner {
     width: 350px;
     margin: auto;
-    padding: 20px;
+    padding: 30px 20px;
 
     @include mq($desktop-width, "max-width") {
-  		width: 100%;
+  		width: 50%;
   	}
+
+    @include mq($tablet-width, "max-width") {
+  		width: 80%;
+  	}
+
   }
 
 }

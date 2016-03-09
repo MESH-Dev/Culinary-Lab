@@ -1187,38 +1187,44 @@ body.home.page {
 .case-study-text .case-study-text-inner {
   width: 350px;
   margin: auto;
-  padding: 20px;
+  padding: 30px 20px;
 }
 @media screen and (max-width: 1280px) {
   /* line 237, sass/layout/_main.scss */
   .case-study-text .case-study-text-inner {
-    width: 100%;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 237, sass/layout/_main.scss */
+  .case-study-text .case-study-text-inner {
+    width: 80%;
   }
 }
 
-/* line 249, sass/layout/_main.scss */
+/* line 254, sass/layout/_main.scss */
 .case-study-line {
   text-align: center;
   margin: 0 auto 40px;
   width: 90px;
 }
 
-/* line 255, sass/layout/_main.scss */
+/* line 260, sass/layout/_main.scss */
 ul.single-results {
   display: none;
 }
 
-/* line 260, sass/layout/_main.scss */
+/* line 265, sass/layout/_main.scss */
 .nav_trigger {
   cursor: pointer;
 }
 
-/* line 264, sass/layout/_main.scss */
+/* line 269, sass/layout/_main.scss */
 .nav_trigger.hide {
   display: none;
 }
 
-/* line 268, sass/layout/_main.scss */
+/* line 273, sass/layout/_main.scss */
 .close {
   font-size: 16;
   font-family: "freight-text-pro", Helvetica, Arial, sans-serif;
@@ -1235,13 +1241,13 @@ ul.single-results {
 }
 
 @media only screen and (max-width: 1100px) {
-  /* line 285, sass/layout/_main.scss */
+  /* line 290, sass/layout/_main.scss */
   .results.hide {
     display: none;
     visibility: hidden;
   }
 
-  /* line 290, sass/layout/_main.scss */
+  /* line 295, sass/layout/_main.scss */
   .nav_trigger.hide {
     display: block;
     text-align: right;
@@ -1251,38 +1257,38 @@ ul.single-results {
     z-index: 99999;
   }
 
-  /* line 300, sass/layout/_main.scss */
+  /* line 305, sass/layout/_main.scss */
   .text .container {
     width: 100%;
   }
 
-  /* line 305, sass/layout/_main.scss */
+  /* line 310, sass/layout/_main.scss */
   .main-navigation {
     display: none !important;
   }
 
-  /* line 314, sass/layout/_main.scss */
+  /* line 319, sass/layout/_main.scss */
   .sidr .sidr-inner .close {
     display: block;
   }
 
-  /* line 319, sass/layout/_main.scss */
+  /* line 324, sass/layout/_main.scss */
   main {
     margin-top: 140px;
   }
 
-  /* line 324, sass/layout/_main.scss */
+  /* line 329, sass/layout/_main.scss */
   .text .container {
     width: 100%;
   }
 }
-/* line 332, sass/layout/_main.scss */
+/* line 337, sass/layout/_main.scss */
 .title {
   font-family: "freight-text-pro", Helvetica, Arial, sans-serif;
   letter-spacing: 0.09em;
 }
 
-/* line 337, sass/layout/_main.scss */
+/* line 342, sass/layout/_main.scss */
 .inactive {
   pointer-events: none;
 }
