@@ -128,7 +128,7 @@ jQuery(document).ready(function($){
   $('.sidr #menu-item-17 > a').attr('disabled', 'disabled');
 
 
-  $('.sidr #menu-item-39 > a').click(function(e) {
+  $('.sidr #menu-item-39 > a').hover(function(e) {
     if($(".sidr #menu-item-39 a").attr("disabled") == "disabled") {
       e.preventDefault();
       $(this).parent().find('.sub-menu').slideToggle();
@@ -136,7 +136,7 @@ jQuery(document).ready(function($){
     }
   });
 
-  $('.sidr #menu-item-67 > a').click(function(e) {
+  $('.sidr #menu-item-67 > a').hover(function(e) {
     if($(".sidr #menu-item-67 a").attr("disabled") == "disabled") {
       e.preventDefault();
       $(this).parent().find('.sub-menu').slideToggle();
@@ -144,7 +144,7 @@ jQuery(document).ready(function($){
     }
   });
 
-  $('.sidr #menu-item-17 > a').click(function(e) {
+  $('.sidr #menu-item-17 > a').hover(function(e) {
     if($(".sidr #menu-item-17 a").attr("disabled") == "disabled") {
       e.preventDefault();
       $(this).parent().find('.sub-menu').slideToggle();
