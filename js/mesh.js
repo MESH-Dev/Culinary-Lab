@@ -148,7 +148,7 @@ jQuery(document).ready(function($){
     if($(".sidr #menu-item-17 a").attr("disabled") == "disabled") {
       e.preventDefault();
       $(this).parent().find('.sub-menu').slideDown();
-      $('.sidr #menu-item-67 a').removeAttr('disabled');
+      
     }
   });
 
