@@ -126,16 +126,18 @@ jQuery(document).ready(function($){
   $('.sidr #menu-item-39 a').click(function(e) {
     e.preventDefault();
 
-    $(this).parent().find('.sub-menu').slideDown();
+    $(this).parent().find('.sub-menu').slideToggle();
   });
-  $('.sidr #menu-item-39 a .sidr #menu-item-67 a').click(function(e) {
+  $('.sidr #menu-item-67 a').click(function(e) {
     e.preventDefault();
     //do other stuff when a click happens
-    $(this).find(".sub-menu").slideDown();
+    $(this).parent().find(".sub-menu").slideToggle();
   });
 
   $('.sidr menu-item-39').click(function() {
-    $(this).find(".sub-menu").slideDown();
+    e.preventDefault();
+
+    $(this).parent().find(".sub-menu").slideToggle();
   });
 
   // New tabs
