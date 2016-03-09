@@ -32,7 +32,7 @@ get_header(); ?>
 
             <div class="ten columns offset-by-one">
               <div class="case-study-top" id="<?php echo $post->post_name; ?>"><!-- style="background-image: url(<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'large', true )[0]; ?>)" -->
-                <div class="cs_image" style="background-image: url(<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'study-size', true )[0]; ?>)"> <!-- <img src="<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'study_size', true )[0]; ?>"> --></div>
+                <div class="cs_image" style="background-image: url(<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'study-size', true )[0]; ?>); background-repeat: no-repeat; background-position: center; background-size: cover;"> <!-- <img src="<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'study_size', true )[0]; ?>"> --></div>
                 <div class="case-study-text">
                   <div class="case-study-text-inner">
                     <?php the_content(); ?>
