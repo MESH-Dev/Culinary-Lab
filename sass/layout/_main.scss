@@ -80,6 +80,11 @@ body.home.page{
 
     }
   }
+
+  @include mq($tablet-width, 'max-width') {
+    padding: 50px 0 55px;
+  }
+
 }
 
 .static {
