@@ -123,20 +123,33 @@ jQuery(document).ready(function($){
 
   });
 
-  $('.sidr #menu-item-39 a').click(function(e) {
-    e.preventDefault();
+  $('.sidr #menu-item-39 a').attr('disabled', 'disabled');
 
-    $(this).parent().find('.sub-menu').slideToggle();
+
+
+  $('.sidr #menu-item-39 a').click(function(e) {
+    if($(".sidr #menu-item-39 a").attr("disabled") == "disabled") {
+      e.preventDefault();
+      $(this).parent().find('.sub-menu').slideToggle();
+      $('.sidr #menu-item-39 a').removeAttr('disabled');
+    }
   });
+
   $('.sidr #menu-item-67 a').click(function(e) {
-    e.preventDefault();
-    //do other stuff when a click happens
+    if($(".sidr #menu-item-67 a").attr("disabled") == "disabled") {
+      e.preventDefault();
+      $(this).parent().find('.sub-menu').slideToggle();
+      $('.sidr #menu-item-67 a').removeAttr('disabled');
+    }
     $(this).parent().find(".sub-menu").slideToggle();
   });
 
-  $('.sidr menu-item-39').click(function() {
-    e.preventDefault();
-
+  $('.sidr menu-item-17').click(function() {
+    if($(".sidr #menu-item-17 a").attr("disabled") == "disabled") {
+      e.preventDefault();
+      $(this).parent().find('.sub-menu').slideToggle();
+      $('.sidr #menu-item-17 a').removeAttr('disabled');
+    }
     $(this).parent().find(".sub-menu").slideToggle();
   });
 
