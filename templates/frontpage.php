@@ -40,7 +40,7 @@ get_header(); ?>
 
       // display a sub field value
       $image = get_field('static_image');
-      $imageURL = $image['sizes']['full-size'];
+      $imageURL = $image['sizes']['static-size'];
 
       echo '<img src="' . $imageURL . '" />';
 
