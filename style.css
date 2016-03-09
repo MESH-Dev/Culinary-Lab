@@ -1088,62 +1088,63 @@ body.home.page {
   line-height: 24px;
   color: black;
   margin: 0 0 5px;
+  font-weight: 600;
 }
 
-/* line 146, sass/layout/_main.scss */
+/* line 147, sass/layout/_main.scss */
 .restaurant-website {
   margin: 0 10px 20px 0;
 }
 
-/* line 150, sass/layout/_main.scss */
+/* line 151, sass/layout/_main.scss */
 .property {
   padding-bottom: 75px;
 }
-/* line 153, sass/layout/_main.scss */
+/* line 154, sass/layout/_main.scss */
 .property .content {
   width: 95%;
 }
-/* line 157, sass/layout/_main.scss */
+/* line 158, sass/layout/_main.scss */
 .property:last-of-type {
   padding-bottom: 0px;
 }
 
-/* line 162, sass/layout/_main.scss */
+/* line 163, sass/layout/_main.scss */
 .press {
   margin: 50px 0;
 }
 
-/* line 166, sass/layout/_main.scss */
+/* line 167, sass/layout/_main.scss */
 .property-item {
   padding-bottom: 50px;
 }
-/* line 169, sass/layout/_main.scss */
+/* line 170, sass/layout/_main.scss */
 .property-item:last-of-type {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
-/* line 175, sass/layout/_main.scss */
+/* line 176, sass/layout/_main.scss */
 #container .mix {
   display: none;
   margin-bottom: 20px;
   width: 100%;
 }
 
-/* line 181, sass/layout/_main.scss */
+/* line 182, sass/layout/_main.scss */
 .filter {
   cursor: pointer;
 }
-/* line 184, sass/layout/_main.scss */
+/* line 185, sass/layout/_main.scss */
 .filter.active h3 {
   color: #4474d1;
 }
-/* line 189, sass/layout/_main.scss */
+/* line 190, sass/layout/_main.scss */
 .filter h3:hover {
   color: #4474d1;
 }
 
-/* line 195, sass/layout/_main.scss */
+/* line 196, sass/layout/_main.scss */
 .case-study-top {
   text-align: center;
   display: table;
@@ -1156,13 +1157,13 @@ body.home.page {
   width: 100%;
   position: relative;
 }
-/* line 207, sass/layout/_main.scss */
+/* line 208, sass/layout/_main.scss */
 .case-study-top:hover {
   background-image: none !important;
   border: 1px solid #000000;
 }
 
-/* line 213, sass/layout/_main.scss */
+/* line 214, sass/layout/_main.scss */
 .cs_image {
   position: absolute;
   top: 0;
@@ -1172,52 +1173,52 @@ body.home.page {
   background-size: cover;
   transition: all .2s ease-in-out;
 }
-/* line 222, sass/layout/_main.scss */
+/* line 223, sass/layout/_main.scss */
 .cs_image:hover {
   opacity: 0;
 }
 
-/* line 231, sass/layout/_main.scss */
+/* line 232, sass/layout/_main.scss */
 .case-study-text {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 236, sass/layout/_main.scss */
+/* line 237, sass/layout/_main.scss */
 .case-study-text .case-study-text-inner {
   width: 350px;
   margin: auto;
   padding: 20px;
 }
 @media screen and (max-width: 1280px) {
-  /* line 236, sass/layout/_main.scss */
+  /* line 237, sass/layout/_main.scss */
   .case-study-text .case-study-text-inner {
     width: 100%;
   }
 }
 
-/* line 248, sass/layout/_main.scss */
+/* line 249, sass/layout/_main.scss */
 .case-study-line {
   text-align: center;
   margin: 0 auto 40px;
   width: 90px;
 }
 
-/* line 254, sass/layout/_main.scss */
+/* line 255, sass/layout/_main.scss */
 ul.single-results {
   display: none;
 }
 
-/* line 259, sass/layout/_main.scss */
+/* line 260, sass/layout/_main.scss */
 .nav_trigger {
   cursor: pointer;
 }
 
-/* line 263, sass/layout/_main.scss */
+/* line 264, sass/layout/_main.scss */
 .nav_trigger.hide {
   display: none;
 }
 
-/* line 267, sass/layout/_main.scss */
+/* line 268, sass/layout/_main.scss */
 .close {
   font-size: 16;
   font-family: "freight-text-pro", Helvetica, Arial, sans-serif;
@@ -1234,13 +1235,13 @@ ul.single-results {
 }
 
 @media only screen and (max-width: 1100px) {
-  /* line 284, sass/layout/_main.scss */
+  /* line 285, sass/layout/_main.scss */
   .results.hide {
     display: none;
     visibility: hidden;
   }
 
-  /* line 289, sass/layout/_main.scss */
+  /* line 290, sass/layout/_main.scss */
   .nav_trigger.hide {
     display: block;
     text-align: right;
@@ -1250,32 +1251,32 @@ ul.single-results {
     z-index: 99999;
   }
 
-  /* line 299, sass/layout/_main.scss */
+  /* line 300, sass/layout/_main.scss */
   .text .container {
     width: 100%;
   }
 
-  /* line 304, sass/layout/_main.scss */
+  /* line 305, sass/layout/_main.scss */
   .main-navigation {
     display: none !important;
   }
 
-  /* line 313, sass/layout/_main.scss */
+  /* line 314, sass/layout/_main.scss */
   .sidr .sidr-inner .close {
     display: block;
   }
 
-  /* line 318, sass/layout/_main.scss */
+  /* line 319, sass/layout/_main.scss */
   main {
     margin-top: 140px;
   }
 
-  /* line 323, sass/layout/_main.scss */
+  /* line 324, sass/layout/_main.scss */
   .text .container {
     width: 100%;
   }
 }
-/* line 331, sass/layout/_main.scss */
+/* line 332, sass/layout/_main.scss */
 .title {
   font-family: "freight-text-pro", Helvetica, Arial, sans-serif;
   letter-spacing: 0.09em;
