@@ -13,7 +13,7 @@
 	<!-- Meta / og: tags -->
 	<meta name="description" content="">
 	<meta name="author" content="">
-
+	<meta name="format-detection" content="telephone=no">
 
 	<!-- Mobile Specific Metas
 	================================================== -->
