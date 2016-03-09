@@ -1260,14 +1260,15 @@ ul.single-results {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 768px) {
   /* line 303, sass/layout/_main.scss */
   .results.hide {
     display: none;
     visibility: hidden;
   }
-
-  /* line 308, sass/layout/_main.scss */
+}
+@media only screen and (max-width: 1100px) {
+  /* line 312, sass/layout/_main.scss */
   .nav_trigger.hide {
     display: block;
     text-align: right;
@@ -1277,38 +1278,38 @@ ul.single-results {
     z-index: 99999;
   }
 
-  /* line 318, sass/layout/_main.scss */
+  /* line 322, sass/layout/_main.scss */
   .text .container {
     width: 100%;
   }
 
-  /* line 323, sass/layout/_main.scss */
+  /* line 327, sass/layout/_main.scss */
   .main-navigation {
     display: none !important;
   }
 
-  /* line 332, sass/layout/_main.scss */
+  /* line 336, sass/layout/_main.scss */
   .sidr .sidr-inner .close {
     display: block;
   }
 
-  /* line 337, sass/layout/_main.scss */
+  /* line 341, sass/layout/_main.scss */
   main {
     margin-top: 140px;
   }
 
-  /* line 342, sass/layout/_main.scss */
+  /* line 346, sass/layout/_main.scss */
   .text .container {
     width: 100%;
   }
 }
-/* line 350, sass/layout/_main.scss */
+/* line 354, sass/layout/_main.scss */
 .title {
   font-family: "freight-text-pro", Helvetica, Arial, sans-serif;
   letter-spacing: 0.09em;
 }
 
-/* line 355, sass/layout/_main.scss */
+/* line 359, sass/layout/_main.scss */
 .inactive {
   pointer-events: none;
 }
