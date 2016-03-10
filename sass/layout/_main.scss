@@ -54,7 +54,7 @@ body.home.page{
 
 .more {
   position: absolute;
-  bottom: 20px;
+  bottom: 50px;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%); /* IE 9 */
@@ -66,7 +66,7 @@ body.home.page{
 
     &:hover {
       color: #4474d1;
-      
+
       .arrow-normal {
         background-image: url(img/arrow-down_blue.png);
       }

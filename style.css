@@ -1007,7 +1007,7 @@ body.home.page {
 /* line 55, sass/layout/_main.scss */
 .more {
   position: absolute;
-  bottom: 20px;
+  bottom: 50px;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
