@@ -196,8 +196,6 @@ jQuery(document).ready(function($){
          var filter = "." + window.location.hash.substr(1);
       }
 
-      console.log(filter);
-
       $('#container').mixItUp({
       	load: {
       		filter: filter
