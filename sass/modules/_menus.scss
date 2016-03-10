@@ -130,6 +130,16 @@
 	.current_page_ancestor > a {
 		color: #4474d1;
 	}
+
+	.current-menu-item {
+		ul {
+			li.current-menu-item {
+				a {
+					color: black;
+				}
+			}
+		}
+	}
 }
 
 /* Small menu. */

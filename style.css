@@ -1588,40 +1588,44 @@ header {
 .main-navigation .current_page_ancestor > a {
   color: #4474d1;
 }
+/* line 137, sass/modules/_menus.scss */
+.main-navigation .current-menu-item ul li.current-menu-item a {
+  color: black;
+}
 
 /* Small menu. */
-/* line 136, sass/modules/_menus.scss */
+/* line 146, sass/modules/_menus.scss */
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
 }
 
 @media screen and (min-width: 37.5em) {
-  /* line 142, sass/modules/_menus.scss */
+  /* line 152, sass/modules/_menus.scss */
   .menu-toggle {
     display: none;
   }
 
-  /* line 145, sass/modules/_menus.scss */
+  /* line 155, sass/modules/_menus.scss */
   .main-navigation ul {
     display: block;
   }
 }
-/* line 154, sass/modules/_menus.scss */
+/* line 164, sass/modules/_menus.scss */
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
 .post-navigation {
   margin: 0 0 1.5em;
   overflow: hidden;
 }
-/* line 159, sass/modules/_menus.scss */
+/* line 169, sass/modules/_menus.scss */
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
   float: left;
   width: 50%;
 }
-/* line 164, sass/modules/_menus.scss */
+/* line 174, sass/modules/_menus.scss */
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
@@ -1630,27 +1634,27 @@ header {
   width: 50%;
 }
 
-/* line 171, sass/modules/_menus.scss */
+/* line 181, sass/modules/_menus.scss */
 .sidr {
   background: #e4e4e4;
 }
-/* line 175, sass/modules/_menus.scss */
+/* line 185, sass/modules/_menus.scss */
 .sidr .sub-menu {
   display: none;
 }
-/* line 179, sass/modules/_menus.scss */
+/* line 189, sass/modules/_menus.scss */
 .sidr .sub-menu li a {
   font-size: 18px;
   line-height: 40px;
   text-transform: capitalize;
   font-weight: 500;
 }
-/* line 188, sass/modules/_menus.scss */
+/* line 198, sass/modules/_menus.scss */
 .sidr ul {
   margin-top: 20px;
   margin-left: 20px;
 }
-/* line 193, sass/modules/_menus.scss */
+/* line 203, sass/modules/_menus.scss */
 .sidr ul li a {
   color: black;
   text-transform: uppercase;
@@ -1660,12 +1664,12 @@ header {
   font-weight: 500;
   letter-spacing: 0.05em;
 }
-/* line 202, sass/modules/_menus.scss */
+/* line 212, sass/modules/_menus.scss */
 .sidr ul li a:hover, .sidr ul li a:focus, .sidr ul li a:active {
   color: #4474d1;
   opacity: 1;
 }
-/* line 211, sass/modules/_menus.scss */
+/* line 221, sass/modules/_menus.scss */
 .sidr ul ul {
   margin-left: 0;
   margin-top: 0;
