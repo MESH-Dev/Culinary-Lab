@@ -37,7 +37,7 @@ body.home.page{
   top: -webkit-calc(50% - 84px);
   top: -moz-calc(50% - 84px);
 
-  left: 50%;
+  left: 49%;
 
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%); /* IE 9 */
@@ -49,6 +49,10 @@ body.home.page{
     top: calc(50% - 140px);
     top: -webkit-calc(50% - 140px);
     top: -moz-calc(50% - 140px);
+  }
+
+  @include mq($tablet-width, 'max-width') {
+    width: 250px;
   }
 }
 
