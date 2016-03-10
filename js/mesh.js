@@ -187,13 +187,20 @@ jQuery(document).ready(function($){
 
 
 
+
   // Filtering and sorting
   if (ww > 768){
     $(function(){
 
+      if (window.location.href.indexOf('press') > -1) {
+         var filter = "." + window.location.hash.substr(1);
+      }
+
+      console.log(filter);
+
       $('#container').mixItUp({
       	load: {
-      		filter: '.category-1'
+      		filter: filter
       	},
       	controls: {
       		toggleFilterButtons: false
