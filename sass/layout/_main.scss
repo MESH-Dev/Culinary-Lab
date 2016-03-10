@@ -54,12 +54,31 @@ body.home.page{
 
 .more {
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%); /* IE 9 */
    	-webkit-transform: translate(-50%, -50%); /* Safari */
   text-align: center;
+
+  a {
+    color: #404040;
+
+    &:hover {
+      color: #4474d1;
+      
+      .arrow-normal {
+        background-image: url(img/arrow-down_blue.png);
+      }
+    }
+  }
+}
+
+.arrow-normal {
+  background-image: url(img/arrow-down.png);
+  width: 20px;
+  height: 11px;
+  margin: auto;
 }
 
 .more-text {

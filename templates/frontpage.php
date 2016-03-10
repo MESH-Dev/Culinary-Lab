@@ -10,8 +10,11 @@ get_header(); ?>
       <img src="<?php echo get_template_directory_uri(); ?>/img/culinary-lab.png" />
     </div>
     <div class="more">
-      <div class="more-text">Our Restaurants</div>
-      <a href="#down"><img src="<?php echo get_template_directory_uri(); ?>/img/arrow-down.png" /></a>
+      <a href="#down">
+        <div class="more-text">Our Restaurants</div>
+        <div class="arrow-normal">
+        </div>
+      </a>
     </div>
   </div>
 
