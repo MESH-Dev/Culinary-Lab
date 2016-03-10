@@ -74,46 +74,68 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* line 61, sass/grid/_dependencies.scss */
 .container .two.columns {
   width: 140px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /* line 61, sass/grid/_dependencies.scss */
 .container .three.columns {
   width: 220px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /* line 61, sass/grid/_dependencies.scss */
 .container .four.columns {
   width: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /* line 61, sass/grid/_dependencies.scss */
 .container .five.columns {
   width: 380px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /* line 61, sass/grid/_dependencies.scss */
 .container .six.columns {
   width: 460px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /* line 61, sass/grid/_dependencies.scss */
 .container .seven.columns {
   width: 540px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /* line 61, sass/grid/_dependencies.scss */
 .container .eight.columns {
   width: 620px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /* line 61, sass/grid/_dependencies.scss */
 .container .nine.columns {
   width: 700px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /* line 61, sass/grid/_dependencies.scss */
 .container .ten.columns {
   width: 780px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /* line 61, sass/grid/_dependencies.scss */
 .container .eleven.columns {
   width: 860px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /* line 61, sass/grid/_dependencies.scss */
 .container .twelve.columns {
   width: 940px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /* line 64, sass/grid/_dependencies.scss */
 .container .one-third.column {
@@ -216,46 +238,68 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   /* line 61, sass/grid/_dependencies.scss */
   .container .two.columns {
     width: 108px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   /* line 61, sass/grid/_dependencies.scss */
   .container .three.columns {
     width: 172px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   /* line 61, sass/grid/_dependencies.scss */
   .container .four.columns {
     width: 236px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   /* line 61, sass/grid/_dependencies.scss */
   .container .five.columns {
     width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   /* line 61, sass/grid/_dependencies.scss */
   .container .six.columns {
     width: 364px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   /* line 61, sass/grid/_dependencies.scss */
   .container .seven.columns {
     width: 428px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   /* line 61, sass/grid/_dependencies.scss */
   .container .eight.columns {
     width: 492px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   /* line 61, sass/grid/_dependencies.scss */
   .container .nine.columns {
     width: 556px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   /* line 61, sass/grid/_dependencies.scss */
   .container .ten.columns {
     width: 620px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   /* line 61, sass/grid/_dependencies.scss */
   .container .eleven.columns {
     width: 684px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   /* line 61, sass/grid/_dependencies.scss */
   .container .twelve.columns {
     width: 748px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   /* line 64, sass/grid/_dependencies.scss */
   .container .one-third.column {

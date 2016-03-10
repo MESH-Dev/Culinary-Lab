@@ -58,7 +58,7 @@
 				.#{numToString($i)}.column,
 				.#{numToString($i)}.columns { width: $colWidth; }
 			} @else {
-				.#{numToString($i)}.columns { width: $colWidth + ( ( $colWidth + $gutterWidth ) * ( $i - 1 ) ); }
+				.#{numToString($i)}.columns { width: $colWidth + ( ( $colWidth + $gutterWidth ) * ( $i - 1 ) ); padding-left: 20px; padding-right: 20px; }
 			}
 		}
 		.one-third.column { width: ( $width / 3 ) - 20}
