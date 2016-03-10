@@ -798,7 +798,7 @@ h6 {
   color: black;
   margin: 0 0 5px;
   letter-spacing: .03em;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* line 99, sass/base/_base.scss */
@@ -1108,7 +1108,7 @@ body.home.page {
   line-height: 24px;
   color: black;
   margin: 0 0 5px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* line 160, sass/layout/_main.scss */
