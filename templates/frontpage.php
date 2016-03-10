@@ -34,17 +34,35 @@ get_header(); ?>
     </div>
   </div>
 
-  <div class="static">
+  <div class="mobile-sliding">
 
-    <?php
+    <div class="slider">
 
-      // display a sub field value
-      $image = get_field('static_image');
-      $imageURL = $image['sizes']['static-size'];
+      <?php
 
-      echo '<img src="' . $imageURL . '" />';
+      // check if the repeater field has rows of data
+      if( have_rows('slider_images') ):
 
-    ?>
+       	// loop through the rows of data
+          while ( have_rows('slider_images') ) : the_row();
+
+              // display a sub field value
+              $image = get_sub_field('slider_image');
+              $imageURL = $image['sizes']['static-size'];
+
+              echo '<div><img src="' . $imageURL . '" /></div>';
+
+          endwhile;
+
+      else :
+
+          // no rows found
+
+      endif;
+
+      ?>
+
+    </div>
 
   </div>
 
@@ -63,10 +81,6 @@ get_header(); ?>
               // display a sub field value
               $image = get_sub_field('slider_image');
               $imageURL = $image['sizes']['full-size'];
-
-              if( !empty($image) ) {
-              	$thumb = $image['url'];
-              }
 
               echo '<div><img src="' . $imageURL . '" /></div>';
 

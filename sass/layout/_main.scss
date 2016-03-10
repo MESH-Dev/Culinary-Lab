@@ -87,7 +87,7 @@ body.home.page{
 
 }
 
-.static {
+.mobile-sliding {
   @include mq($tablet-width, 'min-width') {
     display: none;
   }

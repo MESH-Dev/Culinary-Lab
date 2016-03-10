@@ -48,6 +48,8 @@ h2 {
 	@include mq($tablet-width, "max-width") {
 		font-size: 30px;
 		line-height: 1.4em;
+	}
+	@include mq($mobile-landscape-width, "max-width") {
 		text-align: left;
 	}
 }
