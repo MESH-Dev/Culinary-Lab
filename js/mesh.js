@@ -10,10 +10,6 @@ jQuery(document).ready(function($){
 
   //Let's do something awesome!
 
-  $('.main-navigation ul li ul li a').click(function() {
-
-    console.log($(this).parent().parent().hide());
-  })
 
   $(function() {
     $('a[href*="#"]:not([href="#"])').click(function() {
@@ -193,6 +189,11 @@ jQuery(document).ready(function($){
 
       if (window.location.href.indexOf('press') > -1) {
          var filter = "." + window.location.hash.substr(1);
+
+         $('.main-navigation ul ul li').click(function() {
+            location.reload();
+         });
+
       }
 
       $('#container').mixItUp({
