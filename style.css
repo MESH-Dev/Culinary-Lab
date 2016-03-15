@@ -1455,7 +1455,7 @@ ul.single-results {
 /* line 62, sass/layout/_slider.scss */
 .slick-dots li button:before {
   font-family: 'slick';
-  font-size: 50px;
+  font-size: 48px;
   line-height: 13px;
   position: absolute;
   top: 0;
