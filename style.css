@@ -787,11 +787,12 @@ h2 {
   font-weight: 500;
   letter-spacing: -.15em;
   margin: 33px auto;
+  margin-left: -6px;
 }
 @media screen and (max-width: 768px) {
   /* line 37, sass/base/_base.scss */
   h2 {
-    font-size: 30px;
+    font-size: 36px;
     line-height: 1.4em;
   }
 }
@@ -802,7 +803,7 @@ h2 {
   }
 }
 
-/* line 57, sass/base/_base.scss */
+/* line 58, sass/base/_base.scss */
 h3 {
   font-size: 40px;
   line-height: 46px;
@@ -814,7 +815,7 @@ h3 {
   letter-spacing: -6px;
 }
 
-/* line 68, sass/base/_base.scss */
+/* line 69, sass/base/_base.scss */
 h4 {
   font-size: 26px;
   font-weight: 500;
@@ -826,7 +827,7 @@ h4 {
   padding-left: 4px;
 }
 
-/* line 79, sass/base/_base.scss */
+/* line 80, sass/base/_base.scss */
 h5 {
   font-family: "proxima-nova", sans-serif;
   font-size: 26px;
@@ -838,7 +839,7 @@ h5 {
   font-weight: 500;
 }
 
-/* line 90, sass/base/_base.scss */
+/* line 91, sass/base/_base.scss */
 h6 {
   font-family: "proxima-nova", sans-serif;
   font-size: 18px;
@@ -850,17 +851,17 @@ h6 {
   font-weight: 500;
 }
 
-/* line 101, sass/base/_base.scss */
+/* line 102, sass/base/_base.scss */
 a {
   color: #4474d1;
   text-decoration: none;
 }
-/* line 105, sass/base/_base.scss */
+/* line 106, sass/base/_base.scss */
 a:hover {
   opacity: 0.7;
 }
 
-/* line 110, sass/base/_base.scss */
+/* line 111, sass/base/_base.scss */
 p {
   font-family: "proxima-nova", sans-serif;
   margin: 0 0 15px;
@@ -869,7 +870,7 @@ p {
   color: black;
 }
 
-/* line 118, sass/base/_base.scss */
+/* line 119, sass/base/_base.scss */
 blockquote {
   font-size: 1.5pxem;
   font-style: italic;
@@ -879,14 +880,14 @@ blockquote {
   border-left: solid 0.33333em palette(grey, xx-light);
 }
 
-/* line 129, sass/base/_base.scss */
+/* line 130, sass/base/_base.scss */
 img {
   margin-bottom: 1.5pxem;
   max-width: 100%;
   height: auto;
 }
 
-/* line 137, sass/base/_base.scss */
+/* line 138, sass/base/_base.scss */
 ul,
 li {
   margin: 0;
@@ -894,7 +895,7 @@ li {
   list-style-type: none;
 }
 
-/* line 146, sass/base/_base.scss */
+/* line 147, sass/base/_base.scss */
 input,
 textarea {
   display: block;
@@ -904,22 +905,22 @@ textarea {
   border: 0;
 }
 
-/* line 155, sass/base/_base.scss */
+/* line 156, sass/base/_base.scss */
 input:focus,
 textarea:focus {
   transition: 1;
 }
 
-/* line 162, sass/base/_base.scss */
+/* line 163, sass/base/_base.scss */
 button {
   outline: 0;
 }
 
-/* line 168, sass/base/_base.scss */
+/* line 169, sass/base/_base.scss */
 footer {
   border-top: 1px solid palette(grey, xx-light);
 }
-/* line 170, sass/base/_base.scss */
+/* line 171, sass/base/_base.scss */
 footer p {
   font-size: 1pxem;
   margin-top: 1.375em;
