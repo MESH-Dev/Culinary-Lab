@@ -1213,7 +1213,7 @@ body.home.page {
 
 /* line 203, sass/layout/_main.scss */
 .property-item {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 /* line 206, sass/layout/_main.scss */
 .property-item:last-of-type {
