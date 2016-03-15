@@ -7,7 +7,7 @@ get_header(); ?>
 
   <div class="landing">
     <div class="centered">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/culinary-lab.png" />
+      <img src="<?php echo get_template_directory_uri(); ?>/img/Logo_Main.png" />
     </div>
     <div class="more">
       <a href="#down">

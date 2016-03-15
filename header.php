@@ -55,7 +55,7 @@
 
 			<?php if (!is_front_page()) { ?>
 				<div class="logo">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/img/LogoBleed.png"></a>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/img/Logo_Bleed.png"></a>
 				</div>
 			<?php } ?>
 
