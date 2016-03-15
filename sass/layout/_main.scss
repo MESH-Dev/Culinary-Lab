@@ -261,9 +261,17 @@ body.home.page{
   }
 }
 
-// .case-study-bottom {
-//   text-align: center;
-// }
+.case-study-bottom {
+  text-align: center;
+
+  a {
+    color: black;
+
+    &:hover {
+      color: #4474d1;
+    }
+  }
+}
 
 .case-study-text {
   // border-bottom: 1px solid black;
