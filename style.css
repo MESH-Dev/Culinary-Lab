@@ -1469,6 +1469,12 @@ ul.single-results {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@media screen and (max-width: 768px) {
+  /* line 62, sass/layout/_slider.scss */
+  .slick-dots li button:before {
+    top: -1px;
+  }
+}
 
 /* line 88, sass/layout/_slider.scss */
 .slick-dots li.slick-active button:before {
