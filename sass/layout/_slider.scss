@@ -82,7 +82,7 @@
     -moz-osx-font-smoothing: grayscale;
 
     @include mq($tablet-width, 'max-width') {
-      top: -1px;
+      left: -2px;
     }
 }
 .slick-dots li.slick-active button:before
