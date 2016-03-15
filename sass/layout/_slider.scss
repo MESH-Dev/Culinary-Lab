@@ -62,7 +62,7 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 44px;
+    font-size: 46px;
     line-height: 13px;
 
     position: absolute;
@@ -82,8 +82,7 @@
     -moz-osx-font-smoothing: grayscale;
 
     @include mq($tablet-width, 'max-width') {
-      left: -3px;
-      top: -1px;
+      
     }
 }
 .slick-dots li.slick-active button:before
