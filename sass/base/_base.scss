@@ -44,10 +44,10 @@ h2 {
 	font-weight: 500;
 	letter-spacing: -.15em;
 	margin:33px auto;
-	margin-left: -6px;
+	margin-left: -8px;
 
 	@include mq($tablet-width, "max-width") {
-		font-size: 36px;
+		font-size: 34px;
 		line-height: 1.4em;
 	}
 	@include mq($mobile-landscape-width, "max-width") {
