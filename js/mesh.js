@@ -125,7 +125,7 @@ jQuery(document).ready(function($){
 
   $('.sidr #menu-item-39 > a').attr('disabled', 'disabled');
   $('.sidr #menu-item-67 > a').attr('disabled', 'disabled');
-  $('#menu-item-17 > a').attr('disabled', 'disabled');
+  $('.sidr #menu-item-17 > a').attr('disabled', 'disabled');
 
 
   $('.sidr #menu-item-39 > a').hover(function(e) {
@@ -148,11 +148,10 @@ jQuery(document).ready(function($){
     if($(".sidr #menu-item-17 a").attr("disabled") == "disabled") {
       e.preventDefault();
       $(this).parent().find('.sub-menu').slideDown();
-
     }
   });
 
-  $('.sidr #menu-item-17 > a').click(function(e) {
+  $('#menu-item-17 > a').click(function(e) {
     e.preventDefault();
   });
 
