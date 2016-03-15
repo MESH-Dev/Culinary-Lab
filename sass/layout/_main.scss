@@ -218,6 +218,10 @@ body.home.page{
 .filter {
   cursor: pointer;
 
+  @include mq($tablet-width, 'max-width') {
+    margin-bottom: 20px;
+  }
+
   &.active h3{
     color:#4474d1;
   }
@@ -398,4 +402,10 @@ ul.single-results{
 .footer-content {
   padding: 0 30px;
   margin: auto;
+}
+
+.restaurant-title {
+
+    margin-bottom: 0;
+
 }
