@@ -26,7 +26,7 @@ get_header(); ?>
             ?>
 
       				<div class="row property-item">
-    						<div class="filter" data-filter=".<?php echo $post->post_name; ?>"><h3 class="press-title pub-title"><?php the_title(); ?></h3></div>
+    						<div class="filter" data-filter=".<?php echo $post->post_name; ?>"><h3 class="press-button pub-title"><?php the_title(); ?></h3></div>
                 <ul class="single-results">
 
 
