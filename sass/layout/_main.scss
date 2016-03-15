@@ -275,6 +275,10 @@ body.home.page{
     margin: auto;
     padding: 30px 20px;
 
+    p {
+      margin-bottom: 0;
+    }
+
     @include mq($desktop-width, "max-width") {
   		width: 50%;
   	}
@@ -381,4 +385,9 @@ ul.single-results{
 
 .inactive {
   pointer-events: none;
+}
+
+.footer-content {
+  padding: 0 20px;
+  margin: auto;
 }

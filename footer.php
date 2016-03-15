@@ -5,7 +5,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="twelve columns">
-				<span>8033 Sunset Blvd #877, Los Angeles, CA 90046</span> / <span><a href="mailto:info@culinarylab.com">info@culinarylab.com</a></span> / <span>(424) 284-2580</span> / <span><a href="https://www.instagram.com/culinary_lab/" target="_blank">Instagram</a></span>
+				<div class="footer-content">
+					<span>8033 Sunset Blvd #877, Los Angeles, CA 90046</span> / <span><a href="mailto:info@culinarylab.com">info@culinarylab.com</a></span> / <span>(424) 284-2580</span> / <span><a href="https://www.instagram.com/culinary_lab/" target="_blank">Instagram</a></span>
+				</div>
 			</div><!-- End of Footer -->
 		</div>
 	</div>
