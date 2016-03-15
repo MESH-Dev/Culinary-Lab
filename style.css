@@ -1687,6 +1687,11 @@ header {
   margin-bottom: 15px;
 }
 
+/* line 231, sass/modules/_menus.scss */
+#menu-item-17:hover a {
+  color: black;
+}
+
 /* line 5, sass/modules/_modules.scss */
 .callout {
   text-align: center;
