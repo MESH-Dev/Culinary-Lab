@@ -43,7 +43,15 @@ get_header(); ?>
 
             <div class="six columns offset-by-three">
               <div class="case-study-bottom">
-                <h5><a href="<?php echo get_field('case_study_pdf', get_the_id()); ?>"><?php the_title(); ?></a></h5>
+                <h5>
+                  <?php if(get_field('case_study_pdf')) { ?>
+                    <a href="<?php echo get_field('case_study_pdf', get_the_id()); ?>" target="_blank">
+                  <?php } ?>
+                    <?php the_title(); ?>
+                  <?php if(get_field('case_study_pdf')) { ?>
+                    </a>
+                  <?php } ?>
+                </h5>
               </div>
             </div>
 
