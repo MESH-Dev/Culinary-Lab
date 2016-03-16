@@ -215,10 +215,6 @@ jQuery(document).ready(function($){
       if (window.location.href.indexOf('press') > -1) {
          var filter = "." + window.location.hash.substr(1);
 
-        //  $('.sidr #menu-item-67 > ul > li').click(function() {
-        //     location.reload();
-        //  });
-
         $(window).on('hashchange',function(){
           location.reload();
         });
