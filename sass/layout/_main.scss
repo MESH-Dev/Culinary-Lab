@@ -21,7 +21,6 @@ body.home.page{
 
   position: relative;
   width: 100%;
-  z-index: 200;
 
   @include mq($desktop-width, 'max-width') {
     min-height: calc(100vh - 140px);
