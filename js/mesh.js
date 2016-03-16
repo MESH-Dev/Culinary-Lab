@@ -210,9 +210,29 @@ jQuery(document).ready(function($){
       });
     });
   } else {
+    $(function(){
 
-    $('.sidr #menu-item-67 > ul > li').click(function() {
-       location.reload();
+      if (window.location.href.indexOf('press') > -1) {
+         var filter = "." + window.location.hash.substr(1);
+
+         $('.sidr #menu-item-67 > ul > li').click(function() {
+            location.reload();
+         });
+
+      }
+
+      $('#container').mixItUp({
+      	load: {
+      		filter: filter
+      	},
+      	controls: {
+      		toggleFilterButtons: false
+      	},
+        animation: {
+          enable: false
+        }
+      });
+
     });
 
   }
