@@ -185,55 +185,29 @@ jQuery(document).ready(function($){
    });
 
   // Filtering and sorting
-  if (ww > 768){
-    $(function(){
+  $(function(){
 
-      if (window.location.href.indexOf('press') > -1) {
-         var filter = "." + window.location.hash.substr(1);
 
-         $('.main-navigation ul ul li').click(function() {
-            location.reload();
-         });
+      var filter = "." + window.location.hash.substr(1);
 
-      }
-
-      $('#container').mixItUp({
-      	load: {
-      		filter: filter
-      	},
-      	controls: {
-      		toggleFilterButtons: false
-      	},
-        animation: {
-          enable: false
-        }
-      });
-    });
-  } else {
-    $(function(){
-
-      if (window.location.href.indexOf('press') > -1) {
-         var filter = "." + window.location.hash.substr(1);
-
-        $(window).on('hashchange',function(){
-          location.reload();
-        });
-
-      }
-
-      $('#container').mixItUp({
-      	load: {
-      		filter: filter
-      	},
-      	controls: {
-      		toggleFilterButtons: false
-      	},
-        animation: {
-          enable: false
-        }
+      $(window).on('hashchange',function(){
+        location.reload();
       });
 
+
+
+    $('#container').mixItUp({
+      load: {
+        filter: filter
+      },
+      controls: {
+        toggleFilterButtons: false
+      },
+      animation: {
+        enable: false
+      }
     });
 
-  }
+  });
+
 });
