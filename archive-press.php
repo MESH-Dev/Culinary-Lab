@@ -26,8 +26,8 @@ get_header(); ?>
             ?>
 
       				<div class="row property-item">
-    						<div class="filter" data-filter=".<?php echo $post->post_name; ?>"><h3 class="press-button pub-title"><?php the_title(); ?></h3></div>
-                <ul class="single-results">
+    						<div class="filter <?php echo $post->post_name; ?>-button" data-filter=".<?php echo $post->post_name; ?>"><h3 class="press-button pub-title"><?php the_title(); ?></h3></div>
+                <ul class="single-results <?php echo $post->post_name; ?>-slide">
 
 
                 <?php $loop_press = new WP_Query( array( 'post_type' => 'press', 'meta_key'=>'property', 'meta_value'=>$restaurant, 'posts_per_page' => -1, 'order' => 'ASC' ) ); ?>
@@ -37,7 +37,7 @@ get_header(); ?>
                 // if ($restaurant == $press){
               ?>
                 <li>
-                  <h4 class="press-button"><?php echo get_field('pub_month');?>.<?php echo get_field('pub_year'); ?></h4>
+                  <h4 class="press-title"><?php echo get_field('pub_month');?>.<?php echo get_field('pub_year'); ?></h4>
                   <h6><?php echo get_field('pub_title');?></h6>
                   <!-- <span class="restaurant-address">10 W. Century Dr, Los Angeles, CA 90067</span> -->
                   <span class="restaurant-website"><a href="<?php echo get_field('article_link'); ?>"><?php the_title();?></a></span>

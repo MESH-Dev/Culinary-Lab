@@ -55,6 +55,10 @@ jQuery(document).ready(function($){
       $('.filter').not($(this)).removeClass('active').next().slideUp('slow');
     });
 
+    var f = "." + window.location.hash.substr(1) + "-slide";
+    var b = "." + window.location.hash.substr(1) + "-button";
+    $(f).slideToggle('slow');
+    $(b).addClass('active');
     //$('.results.hide').remove();
   }
 
@@ -180,9 +184,6 @@ jQuery(document).ready(function($){
      }
    });
 
-
-
-
   // Filtering and sorting
   if (ww > 768){
     $(function(){
@@ -207,7 +208,12 @@ jQuery(document).ready(function($){
           enable: false
         }
       });
-  });
+    });
+  } else {
 
-}
+    $('.sidr #menu-item-67 > ul > li').click(function() {
+       location.reload();
+    });
+
+  }
 });
