@@ -60,7 +60,7 @@
 			<?php } ?>
 
 			<nav class="main-navigation">
-				<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/img/sidr-close.png ?>" ></div>
+				<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/img/sidr-close.png"></div>
 				<?php if(has_nav_menu('main_nav')){
 							$defaults = array(
 								'theme_location'  => 'main_nav',
@@ -85,7 +85,7 @@
 						} ?>
 			</nav>
 
-			<div class="nav_trigger hide"><img src="<?php echo get_template_directory_uri(); ?>/img/nav_trigger.png ?>" ></div>
+			<div class="nav_trigger hide"><img src="<?php echo get_template_directory_uri(); ?>/img/nav_trigger.png" ></div>
 
 
 		</header>
