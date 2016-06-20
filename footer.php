@@ -6,7 +6,7 @@
 		<div class="row">
 			<div class="twelve columns">
 				<div class="footer-content">
-					<span>8033 Sunset Blvd #877, Los Angeles, CA 90046</span> / <span><a href="mailto:info@culinarylab.com">info@culinarylab.com</a></span> / <span>(424) 284-2580</span> / <span><a href="https://www.instagram.com/culinary_lab/" target="_blank">Instagram</a></span>
+					<span>10 W Century Drive, Los Angeles, CA 90067</span> / <span><a href="mailto:info@culinarylab.com">info@culinarylab.com</a></span> / <span>(424) 284-2580</span>
 				</div>
 			</div><!-- End of Footer -->
 		</div>
@@ -16,7 +16,7 @@
 
 <?php wp_footer(); ?>
 
-<script src="https://use.typekit.net/tis7mcq.js"></script>
+<script src="https://use.typekit.net/glh4sed.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 <?php if (is_front_page()){ ?>

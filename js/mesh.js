@@ -105,7 +105,7 @@ jQuery(document).ready(function($){
        //console.log("Sidr should be closed");
     });
 
-  $('.menu-item-39 ul.sub-menu li').each(function(){
+  $('.menu-item-267 ul.sub-menu li').each(function(){
 
     var type = window.location.hash.substr(1);
     var url = $(this).find('a').attr('href');
@@ -123,35 +123,35 @@ jQuery(document).ready(function($){
 
   });
 
-  $('.sidr #menu-item-39 > a').attr('disabled', 'disabled');
-  $('.sidr #menu-item-67 > a').attr('disabled', 'disabled');
-  $('.sidr #menu-item-17 > a').attr('disabled', 'disabled');
+  $('.sidr #menu-item-267 > a').attr('disabled', 'disabled');
+  $('.sidr #menu-item-268 > a').attr('disabled', 'disabled');
+  $('.sidr #menu-item-283 > a').attr('disabled', 'disabled');
 
 
-  $('.sidr #menu-item-39 > a').hover(function(e) {
-    if($(".sidr #menu-item-39 a").attr("disabled") == "disabled") {
+  $('.sidr #menu-item-267 > a').hover(function(e) {
+    if($(".sidr #menu-item-267 a").attr("disabled") == "disabled") {
       e.preventDefault();
       $(this).parent().find('.sub-menu').slideDown();
-      $('.sidr #menu-item-39 a').removeAttr('disabled');
+      $('.sidr #menu-item-267 a').removeAttr('disabled');
     }
   });
 
-  $('.sidr #menu-item-67 > a').hover(function(e) {
-    if($(".sidr #menu-item-67 a").attr("disabled") == "disabled") {
+  $('.sidr #menu-item-268 > a').hover(function(e) {
+    if($(".sidr #menu-item-268 a").attr("disabled") == "disabled") {
       e.preventDefault();
       $(this).parent().find('.sub-menu').slideDown();
-      $('.sidr #menu-item-67 a').removeAttr('disabled');
+      $('.sidr #menu-item-268 a').removeAttr('disabled');
     }
   });
 
-  $('.sidr #menu-item-17 > a').hover(function(e) {
-    if($(".sidr #menu-item-17 a").attr("disabled") == "disabled") {
+  $('.sidr #menu-item-283 > a').hover(function(e) {
+    if($(".sidr #menu-item-283 a").attr("disabled") == "disabled") {
       e.preventDefault();
       $(this).parent().find('.sub-menu').slideDown();
     }
   });
 
-  $('#menu-item-17 > a').click(function(e) {
+  $('#menu-item-283 > a').click(function(e) {
     e.preventDefault();
   });
 
